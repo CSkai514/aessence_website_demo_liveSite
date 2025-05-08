@@ -1,0 +1,78 @@
+var aessence_translation_dict_cn = {
+    translation: {
+        "Home":"主页",
+        "About Us":"关于我们",
+        "Face & Skin":"脸部与皮肤",
+        "Acne & Scars":"痤疮疤痕",
+        "Aging & Sagging": "老化与下垂",
+        "Cellulites / Stretch Marks": "橘皮组织/妊娠纹",
+        "Dull Skin & Fine Lines": "皮肤暗沉和细纹",
+        "Eczema / Skin Infection": "湿疹/皮肤感染",
+        "Keloid / Hypertrophic Scars": "瘢痕疙瘩/肥厚性疤痕",
+        "Pigmentation": "色素沉着",
+        
+        // Body & Hair Section
+        "Body & Hair": "身体和头发",
+        "Exccesive Sweating": "多汗症",
+        "Weight Management": "体重管理",
+        "Hair Removal": "激光脱毛",
+        "Tattoo Removal": "激光纹身去除",
+        "Vagina Rejuvenation": "妊娠纹",
+
+        // Wellness Section
+        "Wellness": "健康体检",
+        "Anti-aging blood test": "抗衰老血液测试",
+        "EECP": "体外反搏 EECP",
+        "Epigenetic Test Plans": "表观遗传学测试",
+        "Hormone Replacement Therapy(BHRT)": "激素替代疗法 (BHRT)",
+        "MSc Stem Cell & Exsomes": "间充质干细胞和外泌体",
+
+        "Services": "诊所服务",
+        "Biolyph PRP": "Biolyph PRP",
+        "Botulinum Toxin A injection": "肉毒素注射",
+        "Chemical peels": "果酸换肤",
+        "Cold Cryo weight loss": "冷冻溶脂",
+        "Dermal fillers": "皮下填充",
+        "Exilis body": "BTL 爱丽丝",
+        "EECP": "体外反搏 EECP",
+        "Mesolipolysis": "溶脂针",
+        "Fractional CO2 laser": "CO2 激光",
+        "LaseMD": "LaseMD",
+        "Picocare laser": "皮秒镭射",
+        "Skin Booster": "水光针",
+        "Sculptra": "童颜针",
+        "Radiesse": "Radiesse 瑞得喜微晶瓷",
+        "Regenera activa hair growth": "Regenera Activa 生发",
+        "Spectra XT laser": "Spectra XT 激光器",
+        "Thread lift": "埋线提升术",
+        "BTL X-wave": "BTL X波 （塑身波）",
+        "BTL Vanquish": "BTL 征服",
+        
+        // Other Navigation Items
+        "Skincare": "护肤产品",
+        "Blog": "博客",
+        "Contact Us": "联系我们",
+
+
+        // about content 
+        "Your trusted LGP credential Medical Aesthetic Clinic":"您可信赖的马来西亚LCP认证医美抗衰诊所",
+        "about_paragraph1":"在Aessence，我们追求永恒美丽和健康的征程，致力于将这份魅力融入到您日常生活中。",
+        "about_paragraph2":"秉持我们专业的医美与健康人生，我们精心呈现一系列领先的治疗与尖端技术，精心打磨以满足那些对完美和优雅至臻要求的人。",
+        "about_paragraph3":"我们的使命是赋予您揭示内在潜能的力量，让您能够散发内在力量和个性的真谛。我们的承诺在于提供贴近您心灵的呵护，使您展现一种真正体现独特风采和魅力的美丽。",
+        "about_paragraph4":"今天就与我们的医疗团队联系，了解我们引领潮流的抗衰老治疗。我们的全面方法涵盖焕发活力、干细胞疗法、天然激素平衡和再生医学疗程，不仅重塑您的外貌，更唤醒您生命力的核心。重新发现一个焕然一新的自己，精致地映照青春永恒的本质。",
+        "Discover more from our certified Aesthetic Physician updated blog at":"在我们认证的美容医生更新的博客中了解更多。",
+        "Meet the Experts":"专业医生团队",
+        "We understand the significance of your unique journey towards beauty and wellness, and we’re here to support you every step of they way with our medical expertise and genuine care.":"我们深知您通向美丽与健康的独特旅程有多么重要，我们立志在这个过程中的每一步都以医学专业知识和真挚关怀为您携手同行。您对我们而言不仅仅是治疗和护理，更是关于倾听、理解和共同追求内外兼修的目标。",
+        "A Leading Figure in Aesthetic Medicine:":"医美学的杰出人物：",
+        "dr_chin_paragraph1":"Dr. Chin,尊敬的Aessence Clinic医学总监，在马六甲Mahkota医疗中心担任访问资深美容医生的崇高职务。在面部提升、先进线拉提、面部提升、体型雕塑和再生医学方面拥有深厚的专业知识，Dr. Chin在美容医学领域堪称一位杰出的光辉人物。值得注意的是，他荣获了一系列令人瞩目的荣誉，包括曾任马来西亚美容医学协会（MSAM）前主席、第二届马来西亚新加坡美容医学大会主席，以及马来西亚注册美容医生协会（PDEBM）的荣誉秘书",
+        "dr_chin_paragraph2":"此外，Dr. Chin在马来西亚卫生部美容医学实践认证和特权主委员会中担任关键角色。他被认可为卫生部特权和认证（LCP）Viva面试的评审员。他对教育的承诺体现在他作为医学美容认证课程的资深教员以及作为USMARI研究中心美学和再生医学杰出研究员的角色中。",
+        "dr_chin_paragraph3":"除了他的广泛贡献，Dr. Chin还担任美国医美学学院的培训师，指导专业人士进行研究生证书和文凭课程。作为Relife Menarini，Lutronics，Cytohealth和Esthetic Medical Services的关键意见领袖和专家小组成员，他始终走在行业前沿的发展。Dr. Chin是美容医学卓越的典范，将丰富的专业知识与通过研究、教育和领导力推动该领域发展的承诺相结合。",
+        "An Influential Figure in Aesthetic Medicine:":"医美学的有影响力的人物 ：",
+        "dr_sara_paragraph1":"Dr. Sara 是 Aessence Clinic备受尊敬的医美医生，专业从事一系列医美抗衰治疗，包括皮肤填充、痘痘和疤痕治疗、激光治疗色素沉着和皮肤焕活、塑身和荷尔蒙激素替代疗法（BHRT）。她对这一领域的奉献之情可见于她积极参与的医学社团，包括马来西亚美容医学协会（MSAM）和马来西亚抗衰老、美容和再生医学协会（SAAARM）。",
+        "dr_sara_paragraph2":"Dr. Sara 以精准和创新为重点，为Aessence Clinic带来丰富的专业知识。她在皮肤填充方面的熟练技术确保对面部美学的细致关注，而她在痘痘和疤痕治疗方面的专业知识通过先进的解决方案解决皮肤科问题。激光治疗色素沉着和皮肤焕活展示了她对先进和非侵入性护肤方法的承诺。",
+        "dr_sara_paragraph3":"Dr. Sara 的整体治疗方法延伸到塑身领域，在那里她将艺术性和医学精准结合起来，帮助客户实现他们理想的体型。此外，她在荷尔蒙激素替代疗法（BHRT）方面的熟练技术反映了她致力于超越表面美学关切健康的承诺",
+        "dr_sara_paragraph4":"作为MSAM和SAAARM的积极成员，Dr. Sara 一直站在美容和抗衰老医学的前沿，为这两个备受尊敬的医学社群内的知识和最佳实践交流做出贡献。Dr. Sara 对卓越的承诺是Aessence Clinic价值观的体现，为她的患者提供个性化和前沿的抗衰护理。",
+        "Curious to learn more or connect with us?":"想了解或与医生联系吗？ ",
+        "Simply complete the form below, and our dedicated consultant will reach out to you promptly.":"只需填写下面的表格，我们的专业顾问将立即与您联系。",
+    }
+}
