@@ -7,6 +7,7 @@
   body, html {
     font-family: '"Noto Sans"', sans-serif;
     scroll-behavior: smooth;
+    /* border: 1px red solid; */
   }
   
   .top_language_bar {
@@ -398,7 +399,7 @@
 @media (max-width: 768px) {
 
   .fullscreen-video {
-    width: 100vw; 
+    width: 99vw; 
     height: 100%;
   }
   
@@ -449,8 +450,8 @@
 }
 
 .feature-icon {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 25px;
 }
 
@@ -841,6 +842,26 @@
   .review-card {
       padding: 20px;
   }
+  .reviews-slider {
+    max-width: 4cm;
+
+  }
+  
+  .reviews-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .review-card {
+    min-width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    min-height: 300px;
+    max-height: 400px;
+  }
   
   .brand-item {
       margin: 0 15px;
@@ -965,7 +986,19 @@
         min-height: 300px;
       }
     }
+    @media (max-width: 480px) {
 
+      .google-review-container {
+        max-width: 400px;
+        border-color: red 1px solid;
+      }
+      .clinic-info{
+        max-width: 400px;
+      }
+      .awards-section {
+        max-width: 430px;
+      }
+    }
 /* About us Page */
 /* About Clinic Section */
 .about_clinic_info {
