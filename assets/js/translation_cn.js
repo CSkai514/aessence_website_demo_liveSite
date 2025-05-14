@@ -53,6 +53,10 @@ var aessence_translation_dict_cn = {
         "Blog": "博客",
         "Contact Us": "联系我们",
 
+        //home page
+        "We create personalised programmes through proper assessments and consultations to ensure that we meet the unique requirements of each individual.":"我们通过适当的评估和咨询制定个性化计划，以确保满足每个人的独特需求。",
+        "We travel the journey with you, knowing that what matters more than a process of diagnoses and trims is that you receive the peace of mind that you are in good hands.":"我们与您一起踏上旅程，我们知道，比诊断和修剪的过程更重要的是，让您安心地得到良好的照顾",
+        "Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart.":"自 2003 年以来，我们一直为男性和女性提供最优质的美容服务，我们以可靠和值得信赖的团队而自豪，并将您的最大利益放在心上",
 
         // about content 
         "Your trusted LGP credential Medical Aesthetic Clinic":"您可信赖的马来西亚LCP认证医美抗衰诊所",
@@ -74,5 +78,9 @@ var aessence_translation_dict_cn = {
         "dr_sara_paragraph4":"作为MSAM和SAAARM的积极成员，Dr. Sara 一直站在美容和抗衰老医学的前沿，为这两个备受尊敬的医学社群内的知识和最佳实践交流做出贡献。Dr. Sara 对卓越的承诺是Aessence Clinic价值观的体现，为她的患者提供个性化和前沿的抗衰护理。",
         "Curious to learn more or connect with us?":"想了解或与医生联系吗？ ",
         "Simply complete the form below, and our dedicated consultant will reach out to you promptly.":"只需填写下面的表格，我们的专业顾问将立即与您联系。",
+
+        //Contact us page
+        "If you have any questions about our treatment, don't hesitate to get in touch. We will make every effort to respond promptly.":"如果您对我们的治疗有任何疑问，请随时联系我们。我们将尽力及时回复。",
+        "Contact us for monthly promotion":"-请联系我们以获取每月促销活动-",
     }
 }

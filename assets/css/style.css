@@ -1448,9 +1448,11 @@
 }
 
 .treatment-options h3 {
-  color: #4a1f33;
+  color: rgb(82, 25, 54);
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .treatment-options ul {
@@ -1563,3 +1565,154 @@
 .testimonial-author {
   font-weight: bold;
 }
+.treatment-content li{
+  color: #4a1f33;
+  
+}
+
+#treatment-section_excessive_sweating{
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_weight_management{
+  padding: 20px 20px;
+  background-color: #fff;
+}
+#treatment-section_hair_removal{
+  padding: 50px 20px;
+  background-color: #fff;
+}
+#treatment-section_hair_thinning_n_hair_loss{
+  padding: 10px 20px;
+  background-color: #fff;
+}
+#treatment-section_tattoo_removal{
+  padding: 50px 20px;
+  background-color: #fff;
+}
+#treatment-section_vagina_rejuvenation{
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+/* wellness page */
+
+#treatment-section_anti_aging_blood_test{
+    padding: 60px 20px;
+  background-color: #fff;
+}
+#treatment-section_EECP_wellness{
+  padding: 20px 20px;
+  background-color: #fff;
+}
+#treatment-section_epigenetic_test{
+  padding: 40px 20px;
+  background-color: #fff;
+}
+#treatment-section_BHRT{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+#treatment-section_MSc_stem_cell_n_exsomes{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+/* End wellness page */
+
+/* services page */
+#treatment-section_biolyph_PRP{
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_botulinum_toxin_A_injection{
+  padding: 20px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_chemical_peels{
+    padding: 20px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_cold_cryo_weight_loss{
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_dermal_fillers{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_exilis_body{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_EECP_services{
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_mesolipolysis{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_fractional_CO2_laser{
+  padding: 30px 20px;
+  background-color: #fff;  
+}
+
+#treatment-section_LaseMD{
+  padding: 30px 20px;
+  background-color: #fff;  
+}
+
+#treatment-section_picocare_laser{
+  padding: 30px 20px;
+  background-color: #fff; 
+}
+
+#treatment-section_skin_booster{
+  padding: 30px 20px;
+  background-color: #fff; 
+}
+
+#treatment-section_Sculptra{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_Radiesse{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_regenera_activa_hair_growth{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_RSpectra_XT_laser{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_RSpectra_XT_laser{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+#treatment-section_BTL_X-wave{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+#treatment-section_BTL_vanquish{
+  padding: 30px 20px;
+  background-color: #fff;
+}
+/* End services page */

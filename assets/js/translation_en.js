@@ -1,6 +1,6 @@
 var aessence_translation_dict_en = {
     translation: {
-        // Main Navigation
+        // Nav bar
         "Home": "Home",
         "About Us": "About Us",
         
@@ -50,13 +50,17 @@ var aessence_translation_dict_en = {
         "Thread lift": "Thread lift",
         "BTL X-wave": "BTL X-wave",
         "BTL Vanquish": "BTL Vanquish",
-        
-        // Other Navigation Items
         "Skincare": "Skincare",
         "Blog": "Blog",
         "Contact Us": "Contact Us",
+        // end Nav bar
 
-        // about content 
+        //home page
+        "We create personalised programmes through proper assessments and consultations to ensure that we meet the unique requirements of each individual.":"We create personalised programmes through proper assessments and consultations to ensure that we meet the unique requirements of each individual.",
+        "We travel the journey with you, knowing that what matters more than a process of diagnoses and trims is that you receive the peace of mind that you are in good hands.":"We travel the journey with you, knowing that what matters more than a process of diagnoses and trims is that you receive the peace of mind that you are in good hands.",
+        "Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart":"Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart",
+
+        // about page content 
         "Your trusted LGP credential Medical Aesthetic Clinic":"Your trusted LGP credential Medical Aesthetic Clinic",
         "about_paragraph1":"At Aessence, we embark on a quest to unlock the eternal allure of enduring beauty and wellness within your daily life.",
         "about_paragraph2":"Step into our captivating haven of beauty and well-being, where we coaxie a fusion of leading-edge treatments state-of-the-art technology, meticulously tailored to cater to the tastes of those who demand nothing less than perfection and refined elegance.",
@@ -107,5 +111,10 @@ var aessence_translation_dict_en = {
         "":"",
         "":"",
         "":"",
+
+
+        //Contact us page
+        "If you have any questions about our treatment, don't hesitate to get in touch. We will make every effort to respond promptly.":"If you have any questions about our treatment, don't hesitate to get in touch. We will make every effort to respond promptly.",
+        "Contact us for monthly promotion":"-Contact us for monthly promotion-",
     }
 };
