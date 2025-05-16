@@ -1716,3 +1716,310 @@
   background-color: #fff;
 }
 /* End services page */
+
+
+/* skincare page */
+  #skincare_section{
+    text-align: center;
+  }
+
+  .skincare_product-grid{
+    padding: 30px 20px;
+  }
+  .product-col_card{
+    margin-bottom: 20px;
+  }
+  .product-info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap; /* Make it responsive on small screens */
+  }
+
+  .info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+
+  .info-text ul {
+    list-style-type: disc;
+    color: rgb(82, 25, 54);
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: normal;
+    padding-left: 20px;
+    max-width: 500px;
+    margin-top: 5px;
+    font-weight: 400;
+  }
+  .skincare_product-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+      height: 100%;
+    }
+  .skincare_product-card2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+      height: 100%;
+    }
+    .skincare_product-card img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+      min-width: 300px;
+      min-height: 318px;
+    }
+    .special_skincare_col6_css{
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+      min-width: 400px;
+      min-height: 418px;
+      margin-left: 70px;
+    }
+    .skincare_product-title {
+      min-height: 80px;
+      background: #fddede;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      color: rgb(82, 25, 54);
+      margin-bottom: 5px;
+    }
+
+    .skincare_product-subtitle {
+      font-size: 0.9em;
+      color: #555;
+      background: #fddede;
+      color: rgb(82, 25, 54);
+      font-weight: 400;
+    }
+
+    .skincare_product-features {
+      text-align: left;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+    }
+
+    .skincare_product-features li {
+      margin-bottom: 8px;
+      color: rgb(82, 25, 54);
+    }
+
+    .skincare_product-price {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #900;
+    }
+  .skincare_product-bottom{
+    margin-bottom: 0;
+  }
+
+    .buy-button {
+      display: inline-block;
+      background: #e60000;
+      color: #fff;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .buy-button::after {
+      content: " 🛒";
+    }
+    .product-info-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+
+    @media (max-width: 768px) {
+      
+    .special_skincare_col6_css{
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+      min-width: 400px;
+      min-height: 418px;
+      margin-left: -40px;
+    }
+      .skincare_product-card img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+      min-width: 300px;
+      min-height: 318px;
+    }
+    .product-info-image img{
+      max-width: 300px;
+    }
+}
+    /* end skin care page */
+
+    /* blog page */
+    .blog-hero {
+  text-align: center;
+  /* background-color: #fce0d5; */
+  padding: 60px 20px;
+}
+
+.blog-hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.recent-blog {
+  padding: 10px 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.recent-blog h2 {
+  font-size: 40px;
+  color: rgb(82, 25, 54);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.recent-blog p {
+  font-size: 16px;
+  color: rgb(82, 25, 54);
+}
+
+.blog-post {
+  margin: 30px 0;
+}
+
+.blog-post h3 {
+  font-size: 32px;
+  color:rgb(82, 25, 54);
+  font-weight: 700;
+  line-height: 41.6px;
+}
+
+.blog-post .author {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.blog-post .excerpt {
+  margin-bottom: 10px;
+}
+
+.read-more {
+  color: rgb(82, 25, 54);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.read-all-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.read-all-btn {
+  background-color: rgb(255, 192, 203);
+  color: rgb(82, 25, 54);
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.read-all-btn:hover {
+  background-color:  rgb(82, 25, 54);
+  color: white;
+}
+
+.All_blog_Section{
+  padding-top: 40px;
+  text-align: center;
+  
+}
+
+.All_blog_Section h2 {
+  font-size: 40px;
+  color: rgb(82, 25, 54);;
+  font-weight: 700;
+}
+.All_blog_Section p {
+  color: rgb(82, 25, 54);;
+  font-weight: 400;
+}
+
+#load-more{
+  background-color: silver;
+  padding: 10px 50px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.load-more-container {
+  text-align: center;
+  padding: 1rem;
+}
+.blog-content{
+  text-align: start;
+}
+
+.blog-content h1{
+  font-weight: 700;
+  font-size: 40px;
+  color:  rgb(82, 25, 54);
+  padding-bottom: 40px;
+}
+.blog-content h2{
+  font-weight: 700;
+  font-size: 30px;
+  color:  rgb(82, 25, 54);
+  padding-bottom: 10px;
+}
+.blog-content p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:  rgb(82, 25, 54);
+   padding-bottom: 10px;
+}
+
+.blog-content li{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:  rgb(82, 25, 54);
+ padding-bottom: 10px;
+}
+
+.blog-content li strong{
+
+  color:  rgb(82, 25, 54);
+
+}
