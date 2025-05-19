@@ -22,8 +22,8 @@
   <div class="top_language_bar">
     <div class="container_lang">
       <a href="javascript:void(0)" onclick="i18next.changeLanguage('cn'); return false;" class="SwitchlanguagesBTN">中文 (中国)</a>
-      <a href="#">Malay</a>
-      <a href="#" onclick="i18next.changeLanguage('en'); return false;" class="SwitchlanguagesBTN">English</a>
+      <a href="javascript:void(0)" onclick="i18next.changeLanguage('bm'); return false;" class="SwitchlanguagesBTN">Malay</a>
+      <a href="javascript:void(0)" onclick="i18next.changeLanguage('en'); return false;" class="SwitchlanguagesBTN">English</a>
     </div>
   </div>
   <nav class="main_navbar">
@@ -71,7 +71,7 @@
                   <li><a href="body_n_hair.html#treatment-section_excessive_sweating" class="trans" aessence-translate-key="Exccesive Sweating">Exccesive Sweating</a></li>
                   <li><a href="body_n_hair.html#treatment-section_weight_management" class="trans" aessence-translate-key="Weight Management">Weight Management</a></li>
                   <li><a href="body_n_hair.html#treatment-section_hair_removal" class="trans" aessence-translate-key="Hair Removal">Hair Removal</a></li>
-                  <li><a href="body_n_hair.html#treatment-section_hair_thinning_n_hair_loss" class="trans" aessence-translate-key="Hair Removal">Hair thinning / Hair loss</a></li>
+                  <li><a href="body_n_hair.html#treatment-section_hair_thinning_n_hair_loss" class="trans" aessence-translate-key="Hair thinning / Hair loss">Hair thinning / Hair loss</a></li>
                   <li><a href="body_n_hair.html#treatment-section_tattoo_removal" class="trans" aessence-translate-key="Tattoo Removal">Tattoo Removal</a></li>
                   <li><a href="body_n_hair.html#treatment-section_vagina_rejuvenation" class="trans" aessence-translate-key="Vagina Rejuvenation">Vagina Rejuvenation</a></li>
                 </ul>
@@ -159,7 +159,8 @@
               <option>Ara Damansara</option>
               <option>Other Branch</option>
             </select>
-            <button class="btn w-100">SEND</button>
+            <button class="btn w-100" id="sendButton">SEND</button>
+
           </div>
         </div>
       </div>
@@ -169,11 +170,13 @@
   
   <section class="contact_us_clinic">
     <h2>Aessence Clinic</h2>
-    <p class="trans" aessence-translate-key="Contact us for monthly promotion">– Contact us for monthly promotion –</p>
+    <p class="trans" aessence-translate-key="Contact us for monthly promotion" data-aos="flip-down">– Contact us for monthly promotion –</p>
   
     <div class="clinic-cards">
       <!-- ARA DAMANSARA -->
-      <div class="clinic-card">
+      <div class="clinic-card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <img src="assets/image/aradamansara.jpeg" alt="Ara Damansara Clinic" />
         <h3>ARA DAMANSARA</h3>
         <div class="about_us-clinic-info">
@@ -183,7 +186,9 @@
       </div>
   
       <!-- SHAH ALAM -->
-      <div class="clinic-card">
+      <div class="clinic-card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <img src="assets/image/shahalam.jpeg" alt="Shah Alam Clinic" />
         <h3>SHAH ALAM</h3>
         <div class="about_us-clinic-info">
@@ -193,7 +198,9 @@
       </div>
   
       <!-- BUKIT JALIL -->
-      <div class="clinic-card">
+      <div class="clinic-card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <img src="assets/image/bukitjalil.jpeg" alt="Bukit Jalil Clinic" />
         <h3>BUKIT JALIL</h3>
         <div class="about_us-clinic-info">
@@ -222,9 +229,10 @@
   <div class="row">
     <div class="col-sm-3">
       <img class="w-100" src="assets/image/logo_Nobgcolor.png" alt="Aessence Logo">
-      <p class="mt-3 mb-5">
+      <p class="mt-3 mb-5 trans" aessence-translate-key="footer_intro">
         Aessence clinic is KL's latest premium aesthetic practice. Our philosophy is to boost your confidence and subtly enhance natural beauty with medically proven procedures and treatment regimes.
       </p>
+      <p><a href="https://www.flaticon.com/free-icons/testimonial" title="testimonial icons">Testimonial icons created by Freepik - Flaticon</a></p>
       <div class="row">
         <div class="col-2">
           <a href="http://www.facebook.com/aessenceclinic/">
@@ -244,10 +252,10 @@
       </div>
     </div>
     <div class="col-sm-3 contact-column">
-      <h4 class="mt-2 mb-3">Contact Us</h4>
+      <h4 class="mt-2 mb-3 trans" aessence-translate-key="Contact Us">Contact Us</h4>
       <a href="https://wa.me/+600182083395/">0182083395 (Ara Damansara)</a>
       <a href="https://wa.me/+600126273395/">0126273395 (Shah Alam)</a>
-            <a href="https://wa.me/+600189803395/">0189803395 (Bukit Jalil)</a>
+      <a href="https://wa.me/+600189803395/">0189803395 (Bukit Jalil)</a>
       <a href="mailto:aessencehq@gmail.com">aessencehq@gmail.com</a>
 
       <h4 class="mt-5 mb-3">Opening Hours</h4>
@@ -256,19 +264,19 @@
       <p>Sun : Appointment</p>
     </div>
     <div class="col-sm-3 links-column">
-      <h4 class="mt-2 mb-3">Quick Links</h4>
+      <h4 class="mt-2 mb-3 trans" aessence-translate-key="Quick Links">Quick Links</h4>
       <ul>
-        <li><a href="wellness.html">Wellness</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Skin</a></li>
-        <li><a href="face_n_skin.html">Face</a></li>
-        <li><a href="body_n_hair.html">Body &amp; Hair</a></li>
-        <li><a href="contact_us.html">Contact</a></li>
+        <li><a href="wellness.html" class="trans" aessence-translate-key="Wellness">Wellness</a></li>
+        <li><a href="services.html" class="trans" aessence-translate-key="Services">Services</a></li>
+        <li><a href="blog.html" class="trans" aessence-translate-key="Blog">Blog</a></li>
+        <li><a href="skincare.html" class="trans" aessence-translate-key="Skincare">Skin</a></li>
+        <li><a href="face_n_skin.html" class="trans" aessence-translate-key="Face & Skin">Face</a></li>
+        <li><a href="body_n_hair.html" class="trans" aessence-translate-key="Body & Hair">Body &amp; Hair</a></li>
+        <li><a href="contact_us.html" class="trans" aessence-translate-key="Contact Us">Contact</a></li>
         </ul>
     </div>
     <div class="col-sm-3">
-      <h4 class="mt-2 mb-3">Our Branches</h4>
+      <h4 class="mt-2 mb-3 trans" aessence-translate-key="Our Branches">Our Branches</h4>
       <a href="https://www.google.com/maps?q=Aessence+Clinic,+Bukit+Jalil,+Malaysia" target="_blank" class="branch-button">BUKIT JALIL</a>
       <a href="https://www.google.com/maps?q=Aessence+Clinic,+Ara+Damansara,+Malaysia" target="_blank" class="branch-button">ARA DAMANSARA</a>
       <a href="https://www.google.com/maps?q=Aessence+Clinic,+Shah+Alam,+Malaysia" target="_blank" class="branch-button">SHAH ALAM</a>
@@ -281,7 +289,22 @@
 <script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
 <script src="assets/js/translation_cn.js"></script>
 <script src="assets/js/translation_en.js"></script>
-<script src="assets/js/languagesChangeFunction.js"></script>
+<script src="assets/js/translation_bm.js"></script>
+  <script src="assets/js/translation_bm.js"></script>
+  <script src="assets/js/languagesChangeFunction.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+  document.getElementById('sendButton').addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent actual form submission
+    Swal.fire({
+      icon: 'info',
+      title: 'Coming Soon',
+      text: 'This feature is not available yet.',
+      confirmButtonColor: '#4b1034'
+    });
+  });
+</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     // Auto-scrolling reviews

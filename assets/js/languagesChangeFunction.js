@@ -5,7 +5,9 @@ i18next.init({
     // fallbacklang: 'en',
     resources: {
         cn: aessence_translation_dict_cn,
+        bm: aessence_translation_dict_bm,
         en: aessence_translation_dict_en,
+       
     }
 
 }, function (err, t) {

@@ -28,9 +28,23 @@
     "title": "The Rise of ‘Tweakments’: Subtle Enhancements Are Trending",
     "author": "sarathong23",
     "excerpt": "Introduction In recent years, the beauty landscape has evolved, with an increasing number of individuals seeking subtle enhancements known as \"tweakments.\" These minimally invasive [...]",
-    "content": "Full article content here...",
     "contentFile": "blog_details_page/article_4.html",
     "slug": "rise-of-Tweakments"
+  },
+  {
+    "id": "5",
+    "title": "Aesthetic Clinic Safety: What to Look for in Malaysia",
+    "author": "sarathong23",
+    "excerpt": "Introduction As the popularity of aesthetic treatments continues to rise in Malaysia, ensuring the safety and quality of care in aesthetic clinics is paramount. [...]",
+    "slug": "Aesthetic-Clinic-Safety",
+    "contentFile": "blog_details_page/article_5.html"
+  },
+{
+    "id": "6",
+    "title": "Hair Loss Solutions for Men & Women",
+    "author": "sarathong23",
+    "excerpt": "Introduction Hair loss is a common concern that affects both men and women, leading to a significant impact on self-esteem and confidence. In Malaysia, [...]",
+    "slug": "hair-loss-solution-for-men-and-women",
+    "contentFile": "blog_details_page/article_6.html"
   }
-
 ]

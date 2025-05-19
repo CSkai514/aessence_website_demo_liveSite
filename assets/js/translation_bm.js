@@ -1,18 +1,18 @@
-var aessence_translation_dict_en = {
+var aessence_translation_dict_bm = {
     translation: {
         // Nav bar
-        "Home": "Home",
-        "About Us": "About Us",
+        "Home": "Rumah",
+        "About Us": "Tentang Kami",
         
         // Face & Skin Section
-        "Face & Skin": "Face & Skin",
-        "Acne & Scars": "Acne & Scars",
-        "Aging & Sagging": "Aging & Sagging",
-        "Cellulites / Stretch Marks": "Cellulites / Stretch Marks",
-        "Dull Skin & Fine Lines": "Dull Skin & Fine Lines",
-        "Eczema / Skin Infection": "Eczema / Skin Infection",
-        "Keloid / Hypertrophic Scars": "Keloid / Hypertrophic Scars",
-        "Pigmentation": "Pigmentation",
+        "Face & Skin": "Muka & Kulit",
+        "Acne & Scars": "Jerewat & Parut",
+        "Aging & Sagging": "Penuaan & Kendur",
+        "Cellulites / Stretch Marks": "Selulit / Stretch Mark",
+        "Dull Skin & Fine Lines": "Kulit Kusam & Garis Halus",
+        "Eczema / Skin Infection": "Ekzema / Jangkitan Kulit",
+        "Keloid / Hypertrophic Scars": "Keloid / Parut Hipertropik",
+        "Pigmentation": "Pigmentasi",
         // page inside
         "Acne & Scars section":"Acne & Scars",
         "The Canvas of Self – Confidence":"The Canvas of Self – Confidence",
@@ -53,13 +53,13 @@ var aessence_translation_dict_en = {
         
         
         // Body & Hair Section
-        "Body & Hair": "Body & Hair",
-        "Exccesive Sweating": "Exccesive Sweating",
-        "Weight Management": "Weight Management",
-        "Hair Removal": "Hair Removal",
+        "Body & Hair": "Bulu badan",
+        "Exccesive Sweating": "Berpeluh Berlebihan",
+        "Weight Management": "Pengurusan Berat Badan",
+        "Hair Removal": "Penyingkiran Rambut",
         "Hair thinning / Hair loss":"Hair thinning / Hair loss",
-        "Tattoo Removal": "Tattoo Removal",
-        "Vagina Rejuvenation": "Vagina Rejuvenation",
+        "Tattoo Removal": "Pembuangan Tatu",
+        "Vagina Rejuvenation": "Peremajaan Faraj",
         // page inside
         "Body & Hair Title":"Body & Hair",
         "Revive Your Glow: Reimagine Body Beauty":"Revive Your Glow: Reimagine Body Beauty",
@@ -94,7 +94,7 @@ var aessence_translation_dict_en = {
         
 
         // Wellness Section
-        "Wellness": "Wellness",
+        "Wellness": "Kesejahteraan",
         "IV Drips": "IV Drips",
         "Hormonal Therapy": "Hormonal Therapy",
         "Nutrition Plans": "Nutrition Plans",
@@ -141,25 +141,25 @@ var aessence_translation_dict_en = {
         "MSc Stem Cell & Exsomes Paragraph 4":"Learn more about the incredible potential of mesenchymal stem cells and exosomes for hair growth, knee injections, face rejuvenation, and more. Discover how these therapies can transform your life.",
         
         // Services Section
-        "Services": "Services",
+        "Services": "Perkhidmatan",
         "Biolyph PRP": "Biolyph PRP",
-        "Botulinum Toxin A injection": "Botulinum Toxin A injection",
-        "Chemical peels": "Chemical peels",
-        "Cold Cryo weight loss": "Cold Cryo weight loss",
-        "Dermal fillers": "Dermal fillers",
-        "Exilis body": "Exilis body",
+        "Botulinum Toxin A injection": "Suntikan Botulinum Toxin A",
+        "Chemical peels": "Kulit Kimia",
+        "Cold Cryo weight loss": "Penurunan Berat Badan Cold Cryo",
+        "Dermal fillers": "Pengisi Kulit",
+        "Exilis body": "Badan Exilis",
         "EECP": "EECP",
-        "Mesolipolysis": "Mesolipolysis",
-        "Fractional CO2 laser": "Fractional CO2 laser",
+        "Mesolipolysis": "Mesolipolisis",
+        "Fractional CO2 laser": "Laser CO2 Pecahan",
         "LaseMD": "LaseMD",
-        "Picocare laser": "Picocare laser",
+        "Picocare laser": "Laser Picocare ",
         "Skin Booster": "Skin Booster",
         "Sculptra": "Sculptra",
         "Radiesse": "Radiesse",
-        "Regenera activa hair growth": "Regenera activa hair growth",
-        "Spectra XT laser": "Spectra XT laser",
-        "Thread lift": "Thread lift",
-        "BTL X-wave": "BTL X-wave",
+        "Regenera activa hair growth": "Regenera activa Pertumbuhan Rambut",
+        "Spectra XT laser": "Laser Spectra XT ",
+        "Thread lift": "Angkat Benang",
+        "BTL X-wave": "Gelombang BTL X",
         "BTL Vanquish": "BTL Vanquish",
         //page inside
         "Services Title":"Services",
@@ -342,15 +342,15 @@ var aessence_translation_dict_en = {
         
 
 
-        "Skincare": "Skincare",
+        "Skincare": "Penjagaan kulit",
         "Blog": "Blog",
-        "Contact Us": "Contact Us",
+        "Contact Us": "Hubungi Kami",
         // end Nav bar
 
         // footer
-        "footer_intro":"Aessence clinic is KL's latest premium aesthetic practice. Our philosophy is to boost your confidence and subtly enhance natural beauty with medically proven procedures and treatment regimes.",
-        "Our Branches":"Our Branches",
-        "Quick Links":"Quick Links",
+        "footer_intro":"Klinik Aessence adalah amalan estetik premium terkini di KL. Falsafah kami adalah untuk meningkatkan keyakinan anda dan meningkatkan kecantikan semula jadi secara halus dengan prosedur dan rejim rawatan yang terbukti secara perubatan.",
+        "Our Branches":"Cawangan Kami",
+        "Quick Links":"Pautan Pantas",
         //home page
         "We create personalised programmes through proper assessments and consultations to ensure that we meet the unique requirements of each individual.":"We create personalised programmes through proper assessments and consultations to ensure that we meet the unique requirements of each individual.",
         "We travel the journey with you, knowing that what matters more than a process of diagnoses and trims is that you receive the peace of mind that you are in good hands.":"We travel the journey with you, knowing that what matters more than a process of diagnoses and trims is that you receive the peace of mind that you are in good hands.",
