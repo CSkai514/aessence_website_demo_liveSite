@@ -9,7 +9,15 @@
     scroll-behavior: smooth;
     /* border: 1px red solid; */
   }
+  [id] {
+  scroll-margin-top: 100px;
+  }
   
+  @media (max-width: 768px) {
+    [id] {
+      scroll-margin-top: 70px; /* adjust for smaller navbar */
+    }
+  }
   .top_language_bar {
     background-color: #4b1034;
     color: white;
