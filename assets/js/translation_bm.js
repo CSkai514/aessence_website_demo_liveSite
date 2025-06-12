@@ -357,7 +357,7 @@ var aessence_translation_dict_bm = {
         "Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart":"Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart",
 
         // about page content 
-        "Your trusted LGP credential Medical Aesthetic Clinic":"Your trusted LGP credential Medical Aesthetic Clinic",
+        "Your trusted LGP credentialled Medical Aesthetic Clinic":"Your trusted LGP credentialled Medical Aesthetic Clinic",
         "about_paragraph1":"At Aessence, we embark on a quest to unlock the eternal allure of enduring beauty and wellness within your daily life.",
         "about_paragraph2":"Step into our captivating haven of beauty and well-being, where we coaxie a fusion of leading-edge treatments state-of-the-art technology, meticulously tailored to cater to the tastes of those who demand nothing less than perfection and refined elegance.",
         "about_paragraph3":"Our mission is to empower you to unveil your full potential, enabling you to radiate the essence of your inner strength and personality. Our unwavering commitment lies in delivering care that deeply resonates with you, allowing you to embody a beauty that authentically reflects your unique grace and charm.",
