@@ -1,50 +1,11 @@
 [
+
   {
-  "id": "1",
-  "title": "Busting Aesthetic Treatment Myths: Separating Fact from Fiction",
-  "author": "sarathong23",
-  "excerpt": " Introduction Aesthetic treatments have gained immense popularity in recent years, yet misconceptions and myths persist. Many individuals hesitate to pursue these treatments due to [...]",
-  "slug": "aesthetic-treatment-myths",
-  "contentFile": "blog_details_page/article_1.html"
-},
-  {
-    "id": "2",
-    "title": "Self-Care & Beauty Routines for Glowing Skin",
-    "author": "sarathong23",
-    "excerpt": "Introduction Achieving glowing skin is a desire for many, and a consistent self-care routine can make all the difference. In Malaysia, where the climate [...]",
-    "slug": "beauty-routines-glowing-skin",
-    "contentFile": "blog_details_page/article_2.html"
-  },
-  {
-    "id": "3",
-    "title": "Men’s Aesthetics: Popular Treatments & Growing Demand",
-    "author": "sarathong23",
-    "excerpt": "Introduction In recent years, the aesthetic industry has seen a significant shift as more men embrace the idea of personal grooming and aesthetics. From [...]",
-    "contentFile": "blog_details_page/article_3.html",
-    "slug": "Popular_Treatments"
-  },
-  {
-    "id": "4",
-    "title": "The Rise of ‘Tweakments’: Subtle Enhancements Are Trending",
-    "author": "sarathong23",
-    "excerpt": "Introduction In recent years, the beauty landscape has evolved, with an increasing number of individuals seeking subtle enhancements known as \"tweakments.\" These minimally invasive [...]",
-    "contentFile": "blog_details_page/article_4.html",
-    "slug": "rise-of-Tweakments"
-  },
-  {
-    "id": "5",
-    "title": "Aesthetic Clinic Safety: What to Look for in Malaysia",
-    "author": "sarathong23",
-    "excerpt": "Introduction As the popularity of aesthetic treatments continues to rise in Malaysia, ensuring the safety and quality of care in aesthetic clinics is paramount. [...]",
-    "slug": "Aesthetic-Clinic-Safety",
-    "contentFile": "blog_details_page/article_5.html"
-  },
-{
-    "id": "6",
-    "title": "Hair Loss Solutions for Men & Women",
-    "author": "sarathong23",
-    "excerpt": "Introduction Hair loss is a common concern that affects both men and women, leading to a significant impact on self-esteem and confidence. In Malaysia, [...]",
+    "id": "1",
+    "title": "Busting Aesthetic Treatment Myths: Separating Fact from Fiction",
+    "author": "Dr Chin Shih Choon",
+    "excerpt": "Discover the truth behind popular aesthetic treatments. Learn how to separate myths from facts about Botox, dermal fillers, and [...]",
     "slug": "hair-loss-solution-for-men-and-women",
-    "contentFile": "blog_details_page/article_6.html"
+    "contentFile": "blog_details_page/article_1.html"
   }
 ]
