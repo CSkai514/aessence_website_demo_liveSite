@@ -356,7 +356,7 @@ var aessence_translation_dict_cn = {
         "Having provided top-quality aesthetic services since 2003 for men and women, we pride ourselves as a reliable and trustworthy team that have your best interest at heart.":"自 2003 年以来，我们一直为男性和女性提供最优质的美容服务，我们以可靠和值得信赖的团队而自豪，并将您的最大利益放在心上",
 
         // about content 
-        "Your trusted LGP credentialled Medical Aesthetic Clinic":"您可信赖的马来西亚LCP认证医美抗衰诊所",
+        "Your trusted LCP credentialled Medical Aesthetic Clinic":"您可信赖的马来西亚LCP认证医美抗衰诊所",
         "about_paragraph1":"在Aessence，我们追求永恒美丽和健康的征程，致力于将这份魅力融入到您日常生活中。",
         "about_paragraph2":"秉持我们专业的医美与健康人生，我们精心呈现一系列领先的治疗与尖端技术，精心打磨以满足那些对完美和优雅至臻要求的人。",
         "about_paragraph3":"我们的使命是赋予您揭示内在潜能的力量，让您能够散发内在力量和个性的真谛。我们的承诺在于提供贴近您心灵的呵护，使您展现一种真正体现独特风采和魅力的美丽。",
