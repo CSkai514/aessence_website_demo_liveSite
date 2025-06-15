@@ -250,9 +250,15 @@
   
 <div class="content-section">
   <!-- YouTube Video -->
-  <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5_kQOSnQjk?si=ilRdeTBhCKk5RkUD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
+  <div class="youtube-container">
+  <img 
+    src="https://img.youtube.com/vi/Z5_kQOSnQjk/hqdefault.jpg" 
+    alt="YouTube thumbnail" 
+    style="max-width: 100%; width: 560px; height: 315px; cursor: pointer;" 
+    loading="lazy"
+    onclick="loadYouTubeVideo(this, 'Z5_kQOSnQjk')"
+  >
+  <div onclick="loadYouTubeVideo(this, 'Z5_kQOSnQjk')" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; cursor: pointer">▶</div>
 </div>
 
 
@@ -451,6 +457,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+</script>
+<!-- Lazy load youtube embed -->
+ <script>
+  function loadYouTubeVideo(thumb, videoId) {
+    const container = thumb.parentElement;
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.title = "YouTube video player";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.allowFullscreen = true;
+    iframe.frameBorder = "0";
+    iframe.style = "top:50%; left:50%; width:560px; height:315px; max-width: 100%;";
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  }
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
