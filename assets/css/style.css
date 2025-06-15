@@ -1019,7 +1019,7 @@
         border-color: red 1px solid;
       }
       .clinic-info{
-        max-width: 400px;
+        max-width: 100%;
       }
       .awards-section {
         max-width: 430px;
