@@ -847,6 +847,10 @@
   filter: grayscale(0);
 }
 
+.swiper-wrapper{
+  align-items: center;
+}
+
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -959,7 +963,7 @@
         max-width: 500px;
       }
       .reviews{
-        max-width: 400px;
+        max-width: 100%;
       }
     }
     .card-container {
