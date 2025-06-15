@@ -142,10 +142,8 @@
     </div>
   </nav>
   <section class="video-section">
-    <video class="fullscreen-video" autoplay muted loop playsinline>
-      <!-- <source src="assets/video/New_CERTIFIED.mp4" type="video/mp4"> -->
-      <source src="assets/video/New_CERTIFIED.webm" type="video/webm">
-    </video>
+    <video id="heroVideo" class="fullscreen-video" muted playsinline loop preload="none"></video>
+
   </section>
     <section class="features-section">
       <div class="container">
@@ -599,5 +597,19 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
   AOS.init();
 </script>
+
+<!-- Lazy Load the main banner video -->
+ <script>
+window.addEventListener('DOMContentLoaded', function () {
+  const video = document.getElementById('heroVideo');
+  const source = document.createElement('source');
+  source.src = 'assets/video/New_CERTIFIED.webm';
+  source.type = 'video/webm';
+  video.appendChild(source);
+  video.autoplay = true;
+  video.load();
+});
+</script>
+
 </body>
 </html>
