@@ -35,9 +35,17 @@
   {
     "id": "5",
     "title": "Before and After: What to Expect During Your First Aesthetic Consultation",
-    "author": "Dr Nur Jannah  ",
+    "author": "Dr Nur Jannah",
     "excerpt": "Nervous about your first aesthetic consultation? Learn what to expect before, during, and after to feel confident and [...]",
     "slug": "what-to-expect-during-your-first-aesthetic-consultation",
     "contentFile": "blog_details_page/article_5.html"
+  },
+    {
+    "id": "6",
+    "title": "Glass Skin Goals: Korean Skincare Trends and How Aesthetic Clinic Deliver Them To you.",
+    "author": "Dr Nur Jannah",
+    "excerpt": "“Glass skin” is a Korean-beauty trend that describes a complexion so smooth, luminous, and hydrated, it looks like [...]",
+    "slug": "glass-skin-goals-korean-skincare-trends",
+    "contentFile": "blog_details_page/article_6.html"
   }
 ]
