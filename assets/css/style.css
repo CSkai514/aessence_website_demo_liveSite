@@ -804,6 +804,7 @@
   text-align: center;
   min-height: 300px;
   max-height: 550px;
+  overflow: scroll;
 }
 
 .review-text {
@@ -2022,19 +2023,16 @@
 
 .blog-content h1{
   font-weight: 700;
-  font-size: 40px;
   color:  rgb(82, 25, 54);
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .blog-content h2{
   font-weight: 700;
-  font-size: 30px;
   color:  rgb(82, 25, 54);
   padding-bottom: 10px;
 }
 .blog-content h3{
   font-weight: 700;
-  font-size: 26px;
   color:  rgb(82, 25, 54);
   padding-bottom: 10px;
 }
@@ -2046,7 +2044,6 @@
   padding-bottom: 10px;
 }
 .blog-content p{
-  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color:  rgb(82, 25, 54);
@@ -2054,7 +2051,6 @@
 }
 
 .blog-content li{
-  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color:  rgb(82, 25, 54);
