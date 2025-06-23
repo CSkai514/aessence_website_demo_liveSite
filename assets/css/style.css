@@ -2006,7 +2006,8 @@
 }
 
 #load-more{
-  background-color: silver;
+  background: rgb(82, 25, 54);
+  color: white;
   padding: 10px 50px;
   border-radius: 25px;
   text-decoration: none;
