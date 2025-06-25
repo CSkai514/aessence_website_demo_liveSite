@@ -64,12 +64,20 @@
     "slug": "the-truth-about-skin-boosters",
     "contentFile": "blog_details_page/article_8.html"
   },
-      {
+    {
     "id": "9",
     "title": "How to Tighten Loose Skin After Weight Loss Without Surgery?",
     "author": "Dr Sharifah Aini Binti Abdullah",
     "excerpt": "Weight loss is a beautiful voyage of renewal, yet it often leaves behind a whispered reminder, the gentle looseness of skin that once embraced a [...]",
     "slug": "how-to-tighten-loose-skin-after-weight-loss-without-surgery",
     "contentFile": "blog_details_page/article_9.html"
+  },
+  {
+    "id": "10",
+    "title": "Exosomes vs PRP vs PDRN: Which Regenerative Treatment Is Right for You?",
+    "author": "Dr Puteri Noorliyana Zainal",
+    "excerpt": " the evolving world of regenerative medicine, three powerful therapies are gaining significant attention: Exosomes, Platelet-Rich Plasma (PRP), and [...]",
+    "slug": "exosomes-vs-prp-vs-pdrn",
+    "contentFile": "blog_details_page/article_10.html"
   }
 ]
