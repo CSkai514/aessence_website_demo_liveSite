@@ -2063,7 +2063,13 @@
   color:  rgb(82, 25, 54);
 
 }
-
+.image-caption-blog {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #666 !important;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+  }
 @media (max-width: 767px) {
 
 }
