@@ -175,6 +175,16 @@
 .has_dropdown a svg {
     margin-left: 0.5rem; /* Adds space between the text and arrow */
   }
+
+  button.SwitchlanguagesBTN {
+    background: none;
+    color: white;
+    border: none;
+}
+
+button.SwitchlanguagesBTN:hover {
+    text-decoration: underline;
+}
   
   /* Responsive navbar */
   @media (max-width: 768px) {
@@ -804,7 +814,7 @@
   text-align: center;
   min-height: 300px;
   max-height: 550px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .review-text {
