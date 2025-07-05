@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: Send Telegram Message
         run: |
-          MESSAGE="🚀 *New Update on GitHub*%0A"
+          MESSAGE="🚀 *Assence web-dev (Demo site)"
+          MESSAGE="🚀 *Demo-site: New Update on GitHub*%0A"
           MESSAGE+="📦 Repo: *${{ github.repository }}*%0A"
           MESSAGE+="🌿 Branch: *${{ github.ref_name }}*%0A"
           MESSAGE+="📝 Commit: ${{ github.event.head_commit.message }}"
