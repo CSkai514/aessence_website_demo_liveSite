@@ -15,7 +15,7 @@
   
   @media (max-width: 768px) {
     [id] {
-      scroll-margin-top: 70px; /* adjust for smaller navbar */
+      scroll-margin-top: 70px; 
     }
   }
   .top_language_bar {
@@ -29,7 +29,7 @@
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
-    justify-content: flex-end; /* aligns languages to right */
+    justify-content: flex-end;
     gap: 1rem;
   }
   .container_lang a {
@@ -87,9 +87,6 @@
   .has_dropdown ul{
   background-color: #fbe6da;
   }
-  /* .has_dropdown:hover .dropdown_with_image {
-    display: flex;
-  } */
 
   .dropdown_with_image {
     display: none;
@@ -173,7 +170,7 @@
 }
 
 .has_dropdown a svg {
-    margin-left: 0.5rem; /* Adds space between the text and arrow */
+    margin-left: 0.5rem;
   }
 
   button.SwitchlanguagesBTN {
@@ -211,9 +208,7 @@ button.SwitchlanguagesBTN:hover {
     display: flex;
   }
   }
-  /* Add these media queries and mobile menu styles */
 
-/* Mobile menu toggle button (hidden by default) */
 .mobile_menu_toggle {
   display: none;
   background: none;
@@ -223,7 +218,6 @@ button.SwitchlanguagesBTN:hover {
   cursor: pointer;
 }
 
-/* Mobile menu styles */
 @media (max-width: 992px) {
   .mobile_menu_toggle {
     display: block;
@@ -262,7 +256,7 @@ button.SwitchlanguagesBTN:hover {
   }
   
   .dropdown_image {
-    display: none; /* Hide image in mobile */
+    display: none;
   }
   
   .dropdown_menu {
@@ -303,7 +297,7 @@ button.SwitchlanguagesBTN:hover {
 
 .whatsapp-float img {
   height: 150%;
-  object-fit: contain; /* keeps full WhatsApp logo visible */
+  object-fit: contain;
 }
 
 /* Chatbox */
@@ -334,7 +328,7 @@ button.SwitchlanguagesBTN:hover {
   font-weight: bold;
 }
 
-/* Mobile & Tablet Responsiveness */
+
 @media (max-width: 768px) {
   .whatsapp-container {
     bottom: 15px;
@@ -434,15 +428,11 @@ button.SwitchlanguagesBTN:hover {
   
 }
 
-/* Adjust for mobile */
 @media (max-width: 768px) {
 
   .main_navbar {
-    /* position: relative; */
     z-index: 100;
   }
-  
-  /* Adjust content below video to prevent overlap */
   .content-below-video {
     margin-top: 0;
     position: relative;
