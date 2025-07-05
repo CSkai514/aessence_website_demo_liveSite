@@ -54,7 +54,7 @@ var aessence_translation_dict_bm = {
         
         // Body & Hair Section
         "Body & Hair": "Bulu badan",
-        "Exccesive Sweating": "Berpeluh Berlebihan",
+        "Excessive Sweating": "Berpeluh Berlebihan",
         "Weight Management": "Pengurusan Berat Badan",
         "Hair Removal": "Penyingkiran Rambut",
         "Hair thinning / Hair loss":"Hair thinning / Hair loss",
@@ -63,11 +63,11 @@ var aessence_translation_dict_bm = {
         // page inside
         "Body & Hair Title":"Body & Hair",
         "Revive Your Glow: Reimagine Body Beauty":"Revive Your Glow: Reimagine Body Beauty",
-        "Exccesive Sweating Paragraph 1":"Hyperhidrosis, the condition of excessive sweating, can be a silent disruptor of daily life, impacting one’s confidence and comfort on multiple fronts. It becomes more than just a physical discomfort; it becomes an obstacle to living life to the fullest.",
-        "Exccesive Sweating Paragraph 2":"This common skin woe often emerges on the face, chest, and back, areas abundant in sebaceous glands. It occurs when pores become congested with excess sebum, dirt, and dead skin cells, further compounded by the proliferation of P. Acne bacteria, leading to painful inflammation",
-        "Exccesive Sweating Paragraph 3":"One remarkably effective treatment for hyperhidrosis is micro-Botox injections. Often associated with cosmetic procedures, it can also offer relief from excessive sweating. By strategically injecting small amounts of Botox into the affected areas, it effectively blocks the nerve signals responsible for overstimulating sweat glands.",
-        "Exccesive Sweating Paragraph 4":"The result? Remarkable dryness and newfound confidence. The effects of Botox treatment typically last several months, providing a prolonged reprieve from the daily challenges of hyperhidrosis.",
-        "Exccesive Sweating Paragraph 5":"Navigating the road to scar treatment is no easy feat, as various types of scars demand tailored approaches. The quest for clear, confident skin is both a personal and professional journey.",
+        "Excessive Sweating Paragraph 1":"Hyperhidrosis, the condition of excessive sweating, can be a silent disruptor of daily life, impacting one’s confidence and comfort on multiple fronts. It becomes more than just a physical discomfort; it becomes an obstacle to living life to the fullest.",
+        "Excessive Sweating Paragraph 2":"This common skin woe often emerges on the face, chest, and back, areas abundant in sebaceous glands. It occurs when pores become congested with excess sebum, dirt, and dead skin cells, further compounded by the proliferation of P. Acne bacteria, leading to painful inflammation",
+        "Excessive Sweating Paragraph 3":"One remarkably effective treatment for hyperhidrosis is micro-Botox injections. Often associated with cosmetic procedures, it can also offer relief from excessive sweating. By strategically injecting small amounts of Botox into the affected areas, it effectively blocks the nerve signals responsible for overstimulating sweat glands.",
+        "Excessive Sweating Paragraph 4":"The result? Remarkable dryness and newfound confidence. The effects of Botox treatment typically last several months, providing a prolonged reprieve from the daily challenges of hyperhidrosis.",
+        "Excessive Sweating Paragraph 5":"Navigating the road to scar treatment is no easy feat, as various types of scars demand tailored approaches. The quest for clear, confident skin is both a personal and professional journey.",
         "Weight Management Paragraph 1":"Weight management is often depicted as a straightforward journey of diet and exercise. However, the reality is more complex. While lifestyle modifications and weight loss machines play a vital role, success isn’t guaranteed for everyone. Factors such as hormone imbalances and inconsistent efforts can lead to less-than-ideal outcomes.",
         "Weight Management Paragraph 2":"Effective weight management requires a holistic approach. It involves addressing not only diet and exercise but also hormonal balance, emotional well-being, and personalized strategies",
         "Weight Management Paragraph 3":"Professional healthcare doctors can conduct thorough assessments to identify underlying factors, creating tailored plans for success.",

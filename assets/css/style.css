@@ -1259,6 +1259,7 @@ button.SwitchlanguagesBTN:hover {
   flex: 1;
   max-width: 370px !important;
   min-width: 200px;
+  width: 100%;
   }
   .doctor-profile {
     margin-bottom: 1.5rem;
@@ -1822,21 +1823,6 @@ button.SwitchlanguagesBTN:hover {
       text-align: center;
       height: 100%;
     }
-    .skincare_product-card img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
-      min-width: 300px;
-      min-height: 318px;
-    }
-    .special_skincare_col6_css{
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
-      min-width: 400px;
-      min-height: 418px;
-      margin-left: 70px;
-    }
     .skincare_product-title {
       min-height: 80px;
       background: #fddede;
@@ -1899,22 +1885,7 @@ button.SwitchlanguagesBTN:hover {
   }
 
     @media (max-width: 768px) {
-      
-    .special_skincare_col6_css{
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
-      min-width: 400px;
-      min-height: 418px;
-      margin-left: -40px;
-    }
-      .skincare_product-card img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 10px;
-      min-width: 300px;
-      min-height: 318px;
-    }
+
     .product-info-image img{
       max-width: 300px;
     }

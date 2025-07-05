@@ -54,7 +54,7 @@ var aessence_translation_dict_cn = {
         
         // Body & Hair Section
         "Body & Hair": "身体和头发",
-        "Exccesive Sweating": "多汗症",
+        "Excessive Sweating": "多汗症",
         "Weight Management": "体重管理",
         "Hair Removal": "激光脱毛",
         "Hair thinning / Hair loss":"头发稀薄 / 脱发",
@@ -63,11 +63,11 @@ var aessence_translation_dict_cn = {
         // page inside
         "Body & Hair Title":"身型与头发",
         "Revive Your Glow: Reimagine Body Beauty":"我们理解身体和头发的美丽同样重要。无论您面临的是身体形态、脱发还是其他体型问题，我们的专业医生和团队将提供全方位的护理和解决方案。",
-        "Exccesive Sweating Paragraph 1":"多汗症，即过度出汗的病症，可能是日常生活中的一种默默干扰，影响一个人在多个方面的信心和舒适感。它不仅仅是一种生理不适，更是生活充实度的障碍。",
-        "Exccesive Sweating Paragraph 2":"多汗症是由自主神经系统对汗腺的过度刺激引起的，导致异常的多汗。这可能是由于遗传易感性、医学状况，甚至是没有明显原因的情况。",
-        "Exccesive Sweating Paragraph 3":"对于多汗症，一种非常有效的治疗方法是微型肉毒杆菌注射。虽然通常与美容程序相关联，但它也可以缓解过度出汗。通过在受影响的区域注射少量肉毒杆菌，它有效地阻断了刺激汗腺的神经信号。",
-        "Exccesive Sweating Paragraph 4":"结果是令人瞩目的干燥和重新获得的自信。肉毒杆菌治疗的效果通常持续数月，为摆脱多汗症的日常挑战提供了长时间的缓解。",
-        "Exccesive Sweating Paragraph 5":"在治疗疤痕的道路上导航绝非易事，因为不同类型的疤痕需要量身定制的方法。",
+        "Excessive Sweating Paragraph 1":"多汗症，即过度出汗的病症，可能是日常生活中的一种默默干扰，影响一个人在多个方面的信心和舒适感。它不仅仅是一种生理不适，更是生活充实度的障碍。",
+        "Excessive Sweating Paragraph 2":"多汗症是由自主神经系统对汗腺的过度刺激引起的，导致异常的多汗。这可能是由于遗传易感性、医学状况，甚至是没有明显原因的情况。",
+        "Excessive Sweating Paragraph 3":"对于多汗症，一种非常有效的治疗方法是微型肉毒杆菌注射。虽然通常与美容程序相关联，但它也可以缓解过度出汗。通过在受影响的区域注射少量肉毒杆菌，它有效地阻断了刺激汗腺的神经信号。",
+        "Excessive Sweating Paragraph 4":"结果是令人瞩目的干燥和重新获得的自信。肉毒杆菌治疗的效果通常持续数月，为摆脱多汗症的日常挑战提供了长时间的缓解。",
+        "Excessive Sweating Paragraph 5":"在治疗疤痕的道路上导航绝非易事，因为不同类型的疤痕需要量身定制的方法。",
         "Weight Management Paragraph 1":"体重管理通常被描绘为一个简单的饮食和锻炼之旅。然而，现实更为复杂。尽管生活方式的改变和减重机器发挥着至关重要的作用，但并不是每个人都能成功。激素失衡和不一致的努力等因素可能导致不太理想的结果。",
         "Weight Management Paragraph 2":"有效的体重管理需要综合性的方法。它不仅涉及饮食和锻炼，还包括激素平衡、情感健康和个性化策略。",
         "Weight Management Paragraph 3":"专业的医生可以进行彻底的评估，识别潜在因素，并制定成功的个性化计划。",
