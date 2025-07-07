@@ -551,6 +551,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const toggle = document.createElement('button');
   toggle.className = 'mobile_menu_toggle';
+  toggle.ariaLabel = 'Navigation bar toggle'
   toggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
   
   const navbar = document.querySelector('.navbar_container');
