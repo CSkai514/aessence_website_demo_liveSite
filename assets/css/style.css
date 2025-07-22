@@ -2134,3 +2134,66 @@ button.SwitchlanguagesBTN:hover {
     padding-top: 1rem;
   }
 }
+.healthcare-group-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(75, 16, 52, 0.2);
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.healthcare-group-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #4b1034;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.logo-item {
+  width: 140px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item a {
+  display: inline-block;
+  width: 100%;
+}
+
+.logo-item img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .logo-scroll-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .logo-grid {
+    flex-wrap: nowrap;
+    min-width: max-content;
+  }
+
+  .logo-item {
+    flex: 0 0 auto; /* don't shrink or grow */
+  }
+}
+@media (max-width: 480px) {
+  .healthcare-group-card {
+    max-width: 400px !important;
+  }
+}
