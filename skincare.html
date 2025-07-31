@@ -613,21 +613,20 @@
 
         <!-- Form Column -->
         <div class="col-md-6">
-          <div class="form">
-            <input type="text" class="form-control" placeholder="Full name" required>
-            <input type="text" class="form-control" placeholder="Mobile no." required>
-            <input type="email" class="form-control" placeholder="Email" required>
-            <textarea class="form-control" placeholder="Message"></textarea>
-            <select class="form-select" aria-label="Branch Selector">
-              <option selected disabled>Select Branch</option>
-              <option>Ara Damansara</option>
-              <option>Bukit Jalil</option>
-              <option>Shah Alam</option>
-            </select>
-            <button class="btn w-100" id="sendButton">SEND</button>
-
-          </div>
-        </div>
+        <form id="contactForm" action="contact.php" method="POST">
+          <input type="text" name="name" class="form-control mb-3" placeholder="Full name" required>
+          <input type="text" name="phone" class="form-control mb-3" placeholder="Mobile no." required>
+          <input type="email" name="email" class="form-control mb-3" placeholder="Email" required>
+          <textarea name="message" class="form-control mb-3" placeholder="Message" rows="4"></textarea>
+          <select name="branch" class="form-select mb-3" required>
+            <option selected disabled>Select Branch</option>
+            <option>Ara Damansara</option>
+            <option>Bukit Jalil</option>
+            <option>Shah Alam</option>
+          </select>
+          <button class="btn w-100 btn-primary" type="submit">SEND</button>
+        </form>
+      </div>
       </div>
     </div>
   </div>

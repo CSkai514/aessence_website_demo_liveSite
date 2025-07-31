@@ -6,24 +6,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     $branch = htmlspecialchars($_POST['branch']);
 
-    $to = "chongshaokai1999@gmail.com";
-    $subject = "New Contact Form Submission from Website";
+    $to = "aessenceclinic88@gmail.com"; 
+    $subject = "New Contact Form Submission from Aessence Website";
 
-    $body = "You have received a new message:\n\n";
-    $body .= "Name: $name\n";
-    $body .= "Phone: $phone\n";
-    $body .= "Email: $email\n";
-    $body .= "Branch: $branch\n";
-    $body .= "Message:\n$message\n";
+    $body = "You have received a new message:\r\n\r\n";
+    $body .= "Name: $name\r\n";
+    $body .= "Phone: $phone\r\n";
+    $body .= "Email: $email\r\n";
+    $body .= "Branch: $branch\r\n";
+    $body .= "Message:\r\n$message\r\n";
 
-    $headers = "From: $email\r\n";
+    $headers = "From: aessencecom@aessence.com.my\r\n";
     $headers .= "Reply-To: $email\r\n";
 
-    $success = mail($to, $subject, $body, $headers);
-    $result = $success ? 'success' : 'error';
-    $messageText = $success ? 'Your message has been sent successfully!' : 'Oops! Something went wrong, please try again.';
+    if (mail($to, $subject, $body, $headers)) {
+        echo "Message sent";
+    } else {
+        echo "Oops! Something went wrong, please try again.";
+    }
 } else {
-    $result = 'error';
-    $messageText = 'Invalid request method.';
+    echo "Invalid request method.";
 }
 ?>
