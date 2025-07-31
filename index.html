@@ -540,23 +540,22 @@
           </div>
         </div>
 
-        <!-- Form Column -->
-        <div class="col-md-6">
-          <div class="form">
-            <input type="text" class="form-control" placeholder="Full name" required>
-            <input type="text" class="form-control" placeholder="Mobile no." required>
-            <input type="email" class="form-control" placeholder="Email" required>
-            <textarea class="form-control" placeholder="Message"></textarea>
-            <select class="form-select" aria-label="Branch Selector">
-              <option selected disabled>Select Branch</option>
-              <option>Ara Damansara</option>
-              <option>Bukit Jalil</option>
-              <option>Shah Alam</option>
-            </select>
-            <button class="btn w-100" id="sendButton">SEND</button>
-
-          </div>
-        </div>
+      <!-- Form Column -->
+      <div class="col-md-6">
+        <form action="contact.php" method="POST">
+          <input type="text" name="name" class="form-control mb-3" placeholder="Full name" required>
+          <input type="text" name="phone" class="form-control mb-3" placeholder="Mobile no." required>
+          <input type="email" name="email" class="form-control mb-3" placeholder="Email" required>
+          <textarea name="message" class="form-control mb-3" placeholder="Message" rows="4"></textarea>
+          <select name="branch" class="form-select mb-3" required>
+            <option selected disabled>Select Branch</option>
+            <option>Ara Damansara</option>
+            <option>Bukit Jalil</option>
+            <option>Shah Alam</option>
+          </select>
+          <button class="btn w-100 btn-primary" type="submit">SEND</button>
+        </form>
+      </div>
       </div>
     </div>
   </div>
@@ -817,8 +816,6 @@
   <script>
     AOS.init();
   </script>
-
-  <!-- Lazy Load the main banner video -->
   <script>
     window.addEventListener('DOMContentLoaded', function () {
       const video = document.getElementById('heroVideo');
@@ -830,8 +827,6 @@
       video.load();
     });
   </script>
-
-  <!-- Lazy load youtube embed -->
   <script>
     function loadYouTubeVideo(thumb, videoId) {
       const container = thumb.parentElement;
@@ -846,7 +841,33 @@
       container.appendChild(iframe);
     }
   </script>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault(); // Prevent actual form submission
 
+  const formData = new FormData(this);
+
+  fetch("contact.php", {
+    method: "POST",
+    body: formData
+  })
+  .then(response => response.text())
+  .then(result => {
+    Swal.fire({
+      icon: result.includes("Message sent") ? "success" : "error",
+      title: result.includes("Message sent") ? "Success!" : "Oops...",
+      text: result
+    });
+
+    if (result.includes("Message sent")) {
+      document.getElementById("contactForm").reset();
+    }
+  })
+  .catch(error => {
+    Swal.fire("Error", "Network error. Please try again.", "error");
+  });
+});
+</script>
 
 </body>
 
