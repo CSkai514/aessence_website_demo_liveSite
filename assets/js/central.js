@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (btn) {
     btn.addEventListener('click', function(event) {
       // Send GA4 event
-      gtag('event', 'button_click', {
+      gtag('event', 'whatsapp_button_click', {
         event_category: 'contact',
         event_label: 'WhatsApp Start Chat'
       });
