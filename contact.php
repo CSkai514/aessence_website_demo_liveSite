@@ -1,5 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Honeypot check: If filled, treat as bot
+    if (!empty($_POST['website'])) {
+        die("Bot detected. Submission blocked.");
+    }
+
     $name = htmlspecialchars($_POST['name']);
     $phone = htmlspecialchars($_POST['phone']);
     $email = htmlspecialchars($_POST['email']);
