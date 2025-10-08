@@ -8,6 +8,8 @@
     font-family: '"Noto Sans"', sans-serif;
     scroll-behavior: smooth;
     /* border: 1px red solid; */
+    scrollbar-width: auto; /* Firefox: makes scrollbar wider */
+  scrollbar-color: #5f0f29 #f9d9c2; /* thumb color + track color */
   }
   [id] {
   scroll-margin-top: 100px;
@@ -150,7 +152,40 @@
     display: block;
     transition: 0.3s;
   }
-  
+  .has_dropdown:hover .dropdown_menu2 {
+  display: block;
+}
+/* ✅ Scroll fix ONLY for the long Services dropdown */
+.dropdown_menu2.services_dropdown {
+  max-height: 300px;      /* increase height limit for better visibility */
+  overflow-y: auto;       /* enable vertical scroll */
+  overflow-x: hidden;     /* prevent sideways scroll */
+  scrollbar-width: auto; /* Firefox: makes scrollbar wider */
+  scrollbar-color: #5f0f29 #f9d9c2; /* thumb color + track color */
+}
+
+/* Optional — nice scroll bar for Chrome/Safari/Edge */
+.dropdown_menu2.services_dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+.dropdown_menu2.services_dropdown::-webkit-scrollbar-thumb {
+  background-color: rgba(95, 15, 41, 0.3);
+  border-radius: 4px;
+}
+
+/* Tidy up dropdown item style */
+.services_dropdown li a {
+  padding: 10px 14px;
+  display: block;
+  color: #3a3a3a;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.services_dropdown li a:hover {
+  background-color: #f4f4f4;
+  color: #5f0f29;
+}
   .dropdown_menu a:hover {
     color: #5f0f29;
   } 
