@@ -2230,6 +2230,9 @@ button.SwitchlanguagesBTN:hover {
   .healthcare-group-card {
     max-width: 400px !important;
   }
+  .video-btn{
+  margin-top: 10px;
+}
 }
 .form_column_btnSend {
   background-color: #4b1034;
@@ -2301,4 +2304,65 @@ button.SwitchlanguagesBTN:hover {
   height: 520px;
   width: 100%;
   border-radius: 10px;
+}
+.video-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.video-popup {
+  position: relative;
+  background: #000;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  width: 640px;
+}
+
+.video-popup video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.btn-secondary {
+  background-color: #fef8dd;
+  color: rgb(82, 25, 54);
+  /* border: 1px solid rgb(82, 25, 54); */
+  border: none;
+  font-weight: 500;
+  padding: 7.5px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(82, 25, 54);
+  color: #fef8dd;
+  /* border-color: rgb(82, 25, 54); */
 }

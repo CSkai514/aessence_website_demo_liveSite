@@ -990,6 +990,9 @@
              class="btn whatsapp">
             Schedule doctor consultation
           </a>
+          <button class="btn btn-secondary video-btn">
+           Click here for more information
+          </button>
         </div>
       </div>
 
@@ -1032,8 +1035,17 @@
             Your browser does not support the video tag.
           </video>
         </div>
-
       </div>
+    </div>
+  </div>
+    <!-- 🔸 Popup Overlay -->
+  <div class="video-overlay" id="videoOverlay">
+    <div class="video-popup">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <video controls autoplay>
+        <source src="assets/video/ultherapy_prime_promo_longvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
 </section>
@@ -1368,6 +1380,31 @@ function updateTestimonial() {
 updateTestimonial();
 setInterval(updateTestimonial, 5000);
 
+</script>
+<script>
+  const videoBtn = document.querySelector('.video-btn');
+  const videoOverlay = document.getElementById('videoOverlay');
+  const closeBtn = document.getElementById('closeBtn');
+  const popupVideo = videoOverlay.querySelector('video');
+
+  videoBtn.addEventListener('click', () => {
+    videoOverlay.style.display = 'flex';
+    popupVideo.play();
+  });
+
+  closeBtn.addEventListener('click', () => {
+    popupVideo.pause();
+    popupVideo.currentTime = 0;
+    videoOverlay.style.display = 'none';
+  });
+
+  videoOverlay.addEventListener('click', (e) => {
+    if (e.target === videoOverlay) {
+      popupVideo.pause();
+      popupVideo.currentTime = 0;
+      videoOverlay.style.display = 'none';
+    }
+  });
 </script>
 </body>
 </html>
