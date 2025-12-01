@@ -398,13 +398,13 @@ function renderBlogs() {
     const blog = blogsData[i];
     const blogHTML = `
       <section class="recent-blog" id="all-blogs">
-      <div class="blog-post">
-        <h3>${blog.title}</h3>
-        <p class="author">By ${blog.author}</p>
-        <p class="excerpt">${blog.excerpt}</p>
-        <a href="blog_detail.html?slug=${blog.slug}" class="read-more">Read More &rsaquo;</a>
-      </div>
-      <hr>
+        <div class="blog-post">
+          <h3>${blog.title}</h3>
+          <p class="author">By ${blog.author}</p>
+          <p class="excerpt">${blog.excerpt}</p>
+          <a href="blog_detail.html?slug=${blog.slug}" class="read-more">Read More &rsaquo;</a>
+        </div>
+        <hr>
       </section>
     `;
     container.insertAdjacentHTML('beforeend', blogHTML);
@@ -420,12 +420,15 @@ function renderBlogs() {
 fetch('blogs.json')
   .then(response => response.json())
   .then(data => {
-    blogsData = data;
+
+    blogsData = data.sort((a, b) => Number(b.id) - Number(a.id));
+
     renderBlogs();
   });
 
 document.getElementById('load-more').addEventListener('click', renderBlogs);
 </script>
+
 
 </body>
 </html>

@@ -179,47 +179,15 @@
     </div>
   </nav>
 
-  <section class="blog-hero">
-    <div class="blog-hero-image">
-      <img src="assets/image/blog_banner.webp" alt="Image that says 'Wellness & anti-aging blog', with a woman looking at her phone">
-    </div>
-  </section>
-
-  <section class="recent-blog" id="all-blogs">
+ <section class="recent-blog" id="recent-blogs">
   <h2>Recent Blog</h2>
   <p>Explore our latest blog articles, filled with expert insights and invaluable tips.</p>
 
-  <div class="blog-post">
-    <h3>Busting Aesthetic Treatment Myths: Separating Fact from Fiction</h3>
-    <p class="author">By Dr Chin Shih Choon</p>
-    <p class="excerpt">
-      Discover the truth behind popular aesthetic treatments. Learn how to separate myths from facts about Botox, dermal fillers, and [...]
-    </p>
-    <a href="blog_detail.html?slug=busting-aesthetic-treatment-myths" class="read-more">Read More &rsaquo;</a>
-  </div>
+  <div id="recent-blog-container"></div>
 
-  <hr>
-  <div class="blog-post">
-      <h3>Men’s Aesthetics: Top Treatments & Growing Popularity in Men’s Cosmetic Procedures</h3>
-      <p class="author">By Dr Chin Shih Choon</p>
-      <p class="excerpt">
-        In recent years, men’s aesthetics have gained significant traction as a mainstream trend within the beauty and healthcare industries. More men are [...]
-      </p>
-      <a href="blog_detail.html?slug=men-aesthetics-top-treatment" class="read-more">Read More &rsaquo;</a>
-    </div>
-    <hr>
-    <div class="blog-post">
-      <h3>Top Aesthetic Treatments Trending in 2025: What Patients Are Asking For? </h3>
-      <p class="author">By Dr Ajmeera</p>
-      <p class="excerpt">
-        In 2025, the aesthetic industry continues to evolve rapidly, with more patients prioritising natural looking results, minimal  [...]
-      </p>
-      <a href="blog_detail.html?slug=top-aesthetics-Treatments-Trending-2025" class="read-more">Read More &rsaquo;</a>
-    </div>
-    <hr>
   <div class="read-all-wrapper">
-  <a href="all_blog.html" class="read-all-btn">Click here to read more articles</a>
-</div>
+    <a href="all_blog.html" class="read-all-btn">Click here to read more articles</a>
+  </div>
 </section>
 
   <div class="whatsapp-container">
@@ -479,5 +447,34 @@ updateTestimonial();
 setInterval(updateTestimonial, 5000);
 
 </script>
+<script>
+fetch('blogs.json')
+  .then(response => response.json())
+  .then(data => {
+
+    // Sort by ID descending (newest first)
+    const sorted = data.sort((a, b) => Number(b.id) - Number(a.id));
+
+    // Take top 3
+    const topThree = sorted.slice(0, 3);
+
+    const container = document.getElementById('recent-blog-container');
+
+    topThree.forEach(blog => {
+      const blogHTML = `
+        <div class="blog-post">
+          <h3>${blog.title}</h3>
+          <p class="author">By ${blog.author}</p>
+          <p class="excerpt">${blog.excerpt}</p>
+          <a href="blog_detail.html?slug=${blog.slug}" class="read-more">Read More &rsaquo;</a>
+        </div>
+        <hr>
+      `;
+      container.insertAdjacentHTML('beforeend', blogHTML);
+    });
+  })
+  .catch(error => console.error('Error loading blogs:', error));
+</script>
+
 </body>
 </html>
