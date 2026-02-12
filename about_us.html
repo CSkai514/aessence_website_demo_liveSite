@@ -201,11 +201,23 @@
       </ul>
     </div>
   </nav>
-  <section class="video-section">
-    <video class="fullscreen-video" autoplay muted loop playsinline preload="none">
-      <source src="assets/video/aessence web banner CERTIFIED.webm" type="video/webm">
-    </video>
-  </section>
+  <section class="hero-banner-section">
+  <div class="hero-banner-wrapper">
+    
+    <div class="hero-banner-slide active">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-01.png" alt="Aessence Banner 1">
+    </div>
+
+    <div class="hero-banner-slide">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-02.png" alt="Aessence Banner 2">
+    </div>
+
+    <div class="hero-banner-slide">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-03.png" alt="Aessence Banner 3">
+    </div>
+
+  </div>
+</section>
   <section class="about_clinic_info">
     <div class="about_container">
       <h1 class="about_title">Aessence</h1>
@@ -705,5 +717,21 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="
 https://cdn.jsdelivr.net/npm/i18n-js@4.5.1/dist/browser/index.min.js
 "></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".hero-banner-slide");
+  let currentSlide = 0;
+  const slideInterval = 5000; // Change every 5 seconds
+
+  function nextBanner() {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+  if (slides.length > 1) {
+    setInterval(nextBanner, slideInterval);
+  }
+});
+</script>
 </body>
 </html>

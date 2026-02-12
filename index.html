@@ -303,10 +303,23 @@
       </ul>
     </div>
   </nav>
-  <section class="video-section">
-    <video id="heroVideo" class="fullscreen-video" muted playsinline loop preload="none"></video>
+  <section class="hero-banner-section">
+  <div class="hero-banner-wrapper">
+    
+    <div class="hero-banner-slide active">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-01.png" alt="Aessence Banner 1">
+    </div>
 
-  </section>
+    <div class="hero-banner-slide">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-02.png" alt="Aessence Banner 2">
+    </div>
+
+    <div class="hero-banner-slide">
+      <img src="assets/image/20260204_Aessence_Website Opening Banner-03.png" alt="Aessence Banner 3">
+    </div>
+
+  </div>
+</section>
   <section class="features-section">
     <div class="container">
       <div class="features-container">
@@ -995,7 +1008,22 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   });
 });
 </script> -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".hero-banner-slide");
+  let currentSlide = 0;
+  const slideInterval = 5000; // Change every 5 seconds
 
+  function nextBanner() {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+  if (slides.length > 1) {
+    setInterval(nextBanner, slideInterval);
+  }
+});
+</script>
 </body>
 
 </html>
