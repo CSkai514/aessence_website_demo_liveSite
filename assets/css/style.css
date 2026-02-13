@@ -457,10 +457,8 @@ button.SwitchlanguagesBTN:hover {
 .hero-banner-section {
   position: relative;
   width: 100%;
-  height: 86vh;
-  overflow: hidden;
   margin: 0;
-  background-color: #000;
+  background-color: white;
 }
 
 .hero-banner-wrapper {
@@ -471,11 +469,8 @@ button.SwitchlanguagesBTN:hover {
 
 /* --- Individual Slides --- */
 .hero-banner-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: 0;
   opacity: 0;
   visibility: hidden;
   transition: opacity 1.5s ease-in-out, visibility 1.5s;
@@ -483,6 +478,7 @@ button.SwitchlanguagesBTN:hover {
 }
 
 .hero-banner-slide.active {
+  height: auto;
   opacity: 1;
   visibility: visible;
   z-index: 2;
@@ -497,16 +493,16 @@ button.SwitchlanguagesBTN:hover {
 }
 
 @media (max-width: 1024px) {
-  .hero-banner-section {
+  /* .hero-banner-section {
     height: 60vh;
-  }
+  } */
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-  .hero-banner-section {
+  /* .hero-banner-section {
     height: 50vh; 
-  }
+  } */
   
   .hero-banner-slide img {
     object-position: center; 
@@ -542,7 +538,6 @@ button.SwitchlanguagesBTN:hover {
 }
 
 .features-section {
-  margin-top: 100px;
   text-align: center;
   background: linear-gradient(135deg, #fbe6da 0%, #ffffff 100%);
 }
