@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace("no-js", "js");
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:type" content="website">
@@ -120,6 +123,14 @@
 }
 </script>
 
+<style>
+    /* If JS is disabled or not yet loaded, show all AOS elements immediately */
+.no-js [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+</style>
 </head>
 
 <!-- Load gtag.js once -->
@@ -369,7 +380,7 @@
 
   <!-- Clinic Intro Section -->
   <section class="clinic-intro">
-    <div class="container" data-aos="zoom-in">
+    <div class="container">
       <h1>Aessence Clinic</h1>
       <h2 style="color: rgb(82, 25, 54);">Leading the Way in Anti-Aging and Aesthetic Excellence Across Malaysia</h2>
       <p>Welcome to Aessence Clinic, where we proudly carry the prestigious accreditation from the Ministry of Health
