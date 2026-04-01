@@ -341,7 +341,7 @@ var aessence_translation_dict_cn = {
 
 
         // Other Navigation Items
-        "Skincare": "护肤产品",
+        "Skincare": "护肤产品 (DermDefine)",
         "Blog": "博客",
         "Contact Us": "联系我们",
 

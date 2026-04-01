@@ -342,7 +342,7 @@ var aessence_translation_dict_bm = {
         
 
 
-        "Skincare": "Penjagaan kulit",
+        "Skincare": "Penjagaan kulit (DermDefine)",
         "Blog": "Blog",
         "Contact Us": "Hubungi Kami",
         // end Nav bar

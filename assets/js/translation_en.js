@@ -353,7 +353,7 @@ var aessence_translation_dict_en = {
         "Ultherapy Prime Paragraph 12": "FDA-cleared and trusted worldwide, Ultherapy Prime is the go-to choice for those who want a natural lift without surgery.",
         "Ultherapy Prime Paragraph 13": "Perfect for anyone in their 30s and above noticing early signs of aging or wanting to look refreshed and confident before a big event.",
 
-        "Skincare": "Skincare",
+        "Skincare": "Skincare (DermDefine)",
         "Blog": "Blog",
         "Contact Us": "Contact Us",
         // end Nav bar
