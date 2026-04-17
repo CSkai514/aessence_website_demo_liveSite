@@ -99,7 +99,7 @@ var aessence_translation_dict_cn = {
         "EECP": "体外反搏 EECP",
         "Epigenetic Test Plans": "表观遗传学测试",
         "Hormone Replacement Therapy(BHRT)": "激素替代疗法 (BHRT)",
-        "MSc Stem Cell & Exsomes": "间充质干细胞和外泌体",
+        "MSc Stem Cell & Exosomes": "间充质干细胞和外泌体",
         // page inside
         "Wellness-Section":"健康养生",
         "Revive Your Glow: Reimagine Body Beauty":"焕发光彩：重新定义身体之美",
