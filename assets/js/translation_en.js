@@ -135,10 +135,11 @@ var aessence_translation_dict_en = {
         "Hormone Replacement Therapy(BHRT) Paragraph 5": "<b>Holistic Wellness: </b>Promotes vitality and balance.",
         "Hormone Replacement Therapy(BHRT) Paragraph 6": "Experience the transformative potential of Bio-Identical Hormone Replacement Therapy at Aessence Clinic. Rediscover balance, vitality, and overall well-being with a treatment tailored to your unique needs.",
         "Hormone Replacement Therapy(BHRT) Paragraph 7": "Say goodbye to the one-size-fits-all approach of traditional hormone replacement therapy. Embrace the natural, personalized journey to hormonal balance with BHRT and unlock a healthier, more vibrant you.",
-        "MSc Stem Cell & Exsomes Paragraph 1": "At Aessence Clinic, we’re pioneering the next frontier in regenerative medicine, and our cutting-edge stem cell lab adheres to the highest standards of Current Good Manufacturing Practice (cGMP).",
-        "MSc Stem Cell & Exsomes Paragraph 2": "Mesenchymal stem cells and exosomes have captured the attention of the medical world due to their remarkable regenerative abilities. These cells and their secreted exosomes can differentiate into various tissue types and promote tissue repair, immune system modulation, and rejuvenation.",
-        "MSc Stem Cell & Exsomes Paragraph 3": "Our stem cell lab follows the stringent guidelines of cGMP, ensuring that our stem cell and exosome therapies are produced under the highest quality standards. This commitment to excellence guarantees the safety and efficacy of our treatments.",
-        "MSc Stem Cell & Exsomes Paragraph 4": "Learn more about the incredible potential of mesenchymal stem cells and exosomes for hair growth, knee injections, face rejuvenation, and more. Discover how these therapies can transform your life.",
+        "MSc Stem Cell & Exosomes":"MSc Stem Cell & Exosomes",
+        "MSc Stem Cell & Exosomes Paragraph 1": "At Aessence Clinic, we’re pioneering the next frontier in regenerative medicine, and our cutting-edge stem cell lab adheres to the highest standards of Current Good Manufacturing Practice (cGMP).",
+        "MSc Stem Cell & Exosomes Paragraph 2": "Mesenchymal stem cells and exosomes have captured the attention of the medical world due to their remarkable regenerative abilities. These cells and their secreted exosomes can differentiate into various tissue types and promote tissue repair, immune system modulation, and rejuvenation.",
+        "MSc Stem Cell & Exosomes Paragraph 3": "Our stem cell lab follows the stringent guidelines of cGMP, ensuring that our stem cell and exosome therapies are produced under the highest quality standards. This commitment to excellence guarantees the safety and efficacy of our treatments.",
+        "MSc Stem Cell & Exosomes Paragraph 4": "Learn more about the incredible potential of mesenchymal stem cells and exosomes for hair growth, knee injections, face rejuvenation, and more. Discover how these therapies can transform your life.",
 
         // Services Section
         "Services": "Services",
