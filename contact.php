@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     $branch = htmlspecialchars($_POST['branch']);
 
-    $to = "aessenceclinic88@gmail.com"; 
+    $to = "inquiry.aessenceclinic@gmail.com"; 
     $subject = "New Contact Form Submission from Aessence Website";
 
     $body = "You have received a new message:\r\n\r\n";
