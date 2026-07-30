@@ -511,113 +511,136 @@
         ▶</div>
     </div>
 
-    <div class="google-review-container">
-      <div class="clinic-info">
-        <img src="assets/image/Untitled-1-03.webp" loading="lazy" alt="Aessence logo">
-        <h3>Aessence Clinic Ara Damansara</h3>
-        <div class="stars"> 4.9 ★ ★ ★ ★ ★</div>
-        <p>Based on * reviews</p>
-        <p>From <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" loading="lazy"
-            class="google-icon" alt="Google Logo"></p>
-        <a href="https://www.google.com/search?hl=en-MY&gl=my&q=Aessence+Clinic+Ara+Damansara,+D-2-8,+Pacific+Place,,+Ara+Damansara,+47301+Petaling+Jaya,+Selangor&ludocid=16339366330688962112&lsig=AB86z5WmzA77xNkC_Dtw0JyM1tBe&hl=en&gl=MY#lrd=0x31cc4c26ddac14db:0xe2c1171babb17e40,1"
-          target="_blank" class="review-button">review us on <i class="fa-brands fa-google"></i></a>
+<div class="google-review-container">
+  <!-- Left Column: Location Slider / Info -->
+  <div class="clinic-info-slider">
+    <!-- Navigation Buttons -->
+    <div class="location-tabs">
+      <button class="tab-btn active" onclick="switchLocation('ara-damansara', this)">Ara Damansara</button>
+      <button class="tab-btn" onclick="switchLocation('penang', this)">Penang</button>
+    </div>
+
+    <!-- Ara Damansara Info -->
+    <div id="info-ara-damansara" class="clinic-info location-content active">
+      <img src="assets/image/Untitled-1-03.webp" loading="lazy" alt="Aessence logo">
+      <h3>Aessence Clinic Ara Damansara</h3>
+      <div class="stars"> 4.9 ★ ★ ★ ★ ★</div>
+      <p>Based on * reviews</p>
+      <p>From <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" loading="lazy" class="google-icon" alt="Google Logo"></p>
+      <a href="https://www.google.com/search?hl=en-MY&gl=my&q=Aessence+Clinic+Ara+Damansara,+D-2-8,+Pacific+Place,,+Ara+Damansara,+47301+Petaling+Jaya,+Selangor&ludocid=16339366330688962112&lsig=AB86z5WmzA77xNkC_Dtw0JyM1tBe&hl=en&gl=MY#lrd=0x31cc4c26ddac14db:0xe2c1171babb17e40,1" target="_blank" class="review-button">review us on <i class="fa-brands fa-google"></i></a>
+    </div>
+
+    <!-- Penang Info -->
+    <div id="info-penang" class="clinic-info location-content">
+      <img src="assets/image/Untitled-1-03.webp" loading="lazy" alt="Aessence logo">
+      <h3>Aessence Clinic Penang</h3>
+      <div class="stars"> 5.0 ★ ★ ★ ★ ★</div>
+      <p>Based on * reviews</p>
+      <p>From <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" loading="lazy" class="google-icon" alt="Google Logo"></p>
+      <a href="#" target="_blank" class="review-button">review us on <i class="fa-brands fa-google"></i></a>
+    </div>
+  </div>
+
+  <!-- Right Column: Reviews Container -->
+  <div class="reviews-wrapper">
+    <!-- Ara Damansara Reviews -->
+    <div id="reviews-ara-damansara" class="reviews location-reviews active">
+      
+      <!-- Added data-date="YYYY-MM-DD" -->
+      <div class="review-card" data-date="2026-07-28">
+        <div class="reviewer">Chin Jeek Yin <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">I will highly recommend Dr. Chin for any injection related treatment as he is a very professional and skillful. A very patient Doctor. Do look for him. Tracy and Maricha is also very attentive and helpful to us. Thank you.</div>
       </div>
 
-      <div class="reviews">
-        <div class="review-card">
-          <div class="reviewer">jas cm <span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">Have done so much of research on different clinic. Finally choose Aessence Clinic. Dr
-            Sarah very patient, good and professional.Ms Maricha very lovely and caring.</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Elaine Kok <span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">The team at Aessence is great! Started microneedling and chemical peel occasionally
-            with Aessence and my face journey has been great! Had breakouts and uneven skin tone but it has healed
-            tremendously after I started treatment at Aessence.Dr Sara and Maricha are of great help! Very friendly,
-            knowledgeable and patient. They really take their time to do my face and give extra focus on parts which
-            have more scarring.10/10 would recommend!!! 5 🌟🌟🌟🌟🌟 service! </div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Ng Chia Yi <span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">I had a fantastic experience at Aessence Clinic, especially with Dr. Chin. He was
-            knowledgeable and understanding, and his treatment significantly improved my acne!</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Wong<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">I hope this would help women above 30, who feels fatigue, always falling sick, cough,
-            sinus, dry itch skin, eczema, insomnia, constipated, tummy bloated, numbness in foot, sore joint, moody,
-            irritable, feeling down, anxious. Have tried other clinics/ treatments/ TCM/ products but doesn’t seem to
-            feel better.After taking Aessence clinic’s Immunity Booster supplement for 6 months, slowly I felt more like
-            myself, my overall well-being, mentality & physically, above symptoms have improved: better deep sleep, so
-            less moody, more energy to exercise & to work.It’s a customised supplement with essential key vitamins, so u
-            won’t be traumatised taking many different vitamins. From doing a blood & hormone test, doc will know what
-            nutrient u lack & boost the organ to function better. But of course, u cannot just take supplements, it’s a
-            combination of things, u’ll need to exercise (even if it’s just a walk) & eat healthier.It’s a more holistic
-            way, treating the root cause by supplementing; instead of fire-fighting, taking medication to treat the
-            surface. But need to drink a lot of water, if not, may break out.I just did a follow-up hormone test &
-            starting the hormone supplement because not sure why my hormone level dropped.All your info is kept
-            confidential. Also, big thank you to Tiffany, she is genuine, friendly, kind, knowledgeable & very patient,
-            she’s willing to share her own honest experiences. No hard sell, you just do whatever within your
-            budget.Ultimately, take better care of your health before 30 (eat healthier, do some exercise, drink lots of
-            water, reduce sugar & carbs intake). Your body will start to show signs of the damage after 30. Sounds
-            simple but many people take it for granted.Most importantly, choose a creditable certified doctor that’s
-            able to show you facts, listen, explain the reasoning & how to fix an issue if occur from their treatment.
-            Not just push pharmaceutical products to profit.</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Aya<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">All staff are friendly and professional! I’ve had treatment for my acne skin for 4
-            months. My skin is getting better and I’m happy with that!</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Chin Wei Ling Adeline<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">The skincare products I purchased from Aessence are highly effective and well worth
-            the investment. The procedures and services offered were successful in achieving the results I envisioned
-            for my ever stubborn skin. The staff members were friendly, and the overall ambiance of the clinic was warm
-            and inviting. Highly recommended. Thank you Dr Chin and team!</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Mohammad Faris Bin Norhisham<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">I recently had the pleasure of visiting Aessence Clinic, and I couldn't be happier
-            with my experience. From the moment I walked through the doors, I was greeted with warmth and
-            professionalism. The staff was not only highly knowledgeable but also incredibly attentive to my needs and
-            concerns.The clinic's ambiance was both inviting and calming, creating the perfect environment for a
-            relaxing and rejuvenating experience. The state-of-the-art equipment and modern facilities showcased their
-            commitment to excellence in aesthetic care.Will come again!</div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Abraham Jesaiah<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">The products I bought from Aessence was effective and worth every cent. The
-            procedures and services are very precise and successful. The staffs were friendly, and the clinic itself
-            felt warm and welcoming. Definitely recommended to those who prioritise beauty and aesthetics. </div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">Misha M<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">I am beyond satisfied with my experience here in Aessence. Dr Chin is a very well
-            known figure in the industry and it is such an honor to be treated by him. He thoroughly explains to me in
-            regards to my condition and the suitable treatments to tackle my problems - in which has steadily improved
-            with sessions. Thank you Dr Chin and Aessence! </div>
-        </div>
-        <div class="review-card">
-          <div class="reviewer">LiWen<span style="font-weight:normal">• a year ago</span></div>
-          <div class="stars">★★★★★</div>
-          <div class="review-text">What a great clinic I've never been to! All the doctors and therapists are so nice to
-            me and professional. Feel comfortable when I enter the clinic and feel refreshed after the treatment! Would
-            highly recommend this clinic to you guys! ❤️</div>
-        </div>
+      <div class="review-card" data-date="2025-07-15">
+        <div class="reviewer">jas cm <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">Have done so much of research on different clinic. Finally choose Aessence Clinic. Dr Sarah very patient, good and professional.Ms Maricha very lovely and caring.</div>
+      </div>
 
+      <div class="review-card" data-date="2025-06-10">
+        <div class="reviewer">Elaine Kok <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">The team at Aessence is great! Started microneedling and chemical peel occasionally with Aessence and my face journey has been great! Had breakouts and uneven skin tone but it has healed tremendously after I started treatment at Aessence.Dr Sara and Maricha are of great help! Very friendly, knowledgeable and patient. They really take their time to do my face and give extra focus on parts which have more scarring.10/10 would recommend!!! 5 🌟🌟🌟🌟🌟 service!</div>
+      </div>
 
+      <div class="review-card" data-date="2025-05-20">
+        <div class="reviewer">Ng Chia Yi <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">I had a fantastic experience at Aessence Clinic, especially with Dr. Chin. He was knowledgeable and understanding, and his treatment significantly improved my acne!</div>
+      </div>
+
+      <div class="review-card" data-date="2025-04-12">
+        <div class="reviewer">Wong <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">I hope this would help women above 30, who feels fatigue, always falling sick, cough, sinus, dry itch skin, eczema, insomnia, constipated, tummy bloated, numbness in foot, sore joint, moody, irritable, feeling down, anxious. Have tried other clinics/ treatments/ TCM/ products but doesn’t seem to feel better.After taking Aessence clinic’s Immunity Booster supplement for 6 months, slowly I felt more like myself, my overall well-being, mentality & physically, above symptoms have improved: better deep sleep, so less moody, more energy to exercise & to work.It’s a customised supplement with essential key vitamins, so u won’t be traumatised taking many different vitamins. From doing a blood & hormone test, doc will know what nutrient u lack & boost the organ to function better. But of course, u cannot just take supplements, it’s a combination of things, u’ll need to exercise (even if it’s just a walk) & eat healthier.It’s a more holistic way, treating the root cause by supplementing; instead of fire-fighting, taking medication to treat the surface. But need to drink a lot of water, if not, may break out.I just did a follow-up hormone test & starting the hormone supplement because not sure why my hormone level dropped.All your info is kept confidential. Also, big thank you to Tiffany, she is genuine, friendly, kind, knowledgeable & very patient, she’s willing to share her own honest experiences. No hard sell, you just do whatever within your budget.Ultimately, take better care of your health before 30 (eat healthier, do some exercise, drink lots of water, reduce sugar & carbs intake). Your body will start to show signs of the damage after 30. Sounds simple but many people take it for granted.Most importantly, choose a creditable certified doctor that’s able to show you facts, listen, explain the reasoning & how to fix an issue if occur from their treatment. Not just push pharmaceutical products to profit.</div>
+      </div>
+
+      <div class="review-card" data-date="2025-03-01">
+        <div class="reviewer">Aya <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">All staff are friendly and professional! I’ve had treatment for my acne skin for 4 months. My skin is getting better and I’m happy with that!</div>
+      </div>
+
+      <div class="review-card" data-date="2025-02-14">
+        <div class="reviewer">Chin Wei Ling Adeline <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">The skincare products I purchased from Aessence are highly effective and well worth the investment. The procedures and services offered were successful in achieving the results I envisioned for my ever stubborn skin. The staff members were friendly, and the overall ambiance of the clinic was warm and inviting. Highly recommended. Thank you Dr Chin and team!</div>
+      </div>
+
+      <div class="review-card" data-date="2025-01-20">
+        <div class="reviewer">Mohammad Faris Bin Norhisham <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">I recently had the pleasure of visiting Aessence Clinic, and I couldn't be happier with my experience. From the moment I walked through the doors, I was greeted with warmth and professionalism. The staff was not only highly knowledgeable but also incredibly attentive to my needs and concerns.The clinic's ambiance was both inviting and calming, creating the perfect environment for a relaxing and rejuvenating experience. The state-of-the-art equipment and modern facilities showcased their commitment to excellence in aesthetic care.Will come again!</div>
+      </div>
+
+      <div class="review-card" data-date="2024-11-11">
+        <div class="reviewer">Abraham Jesaiah <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">The products I bought from Aessence was effective and worth every cent. The procedures and services are very precise and successful. The staffs were friendly, and the clinic itself felt warm and welcoming. Definitely recommended to those who prioritise beauty and aesthetics.</div>
+      </div>
+
+      <div class="review-card" data-date="2024-09-05">
+        <div class="reviewer">Misha M <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">I am beyond satisfied with my experience here in Aessence. Dr Chin is a very well known figure in the industry and it is such an honor to be treated by him. He thoroughly explains to me in regards to my condition and the suitable treatments to tackle my problems - in which has steadily improved with sessions. Thank you Dr Chin and Aessence!</div>
+      </div>
+
+      <div class="review-card" data-date="2024-08-18">
+        <div class="reviewer">LiWen <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">What a great clinic I've never been to! All the doctors and therapists are so nice to me and professional. Feel comfortable when I enter the clinic and feel refreshed after the treatment! Would highly recommend this clinic to you guys! ❤️</div>
+      </div>
+
+    </div>
+
+    <!-- Penang Reviews -->
+    <div id="reviews-penang" class="reviews location-reviews">
+      <div class="review-card" data-date="2026-07-10">
+        <div class="reviewer">nurin izzah <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">
+          <p>I have visited this clinic three times for my husband's swollen and infected nose, and our experience has been consistently excellent.</p>
+          <p>The doctor is highly professional, knowledgeable, and takes the time to explain every procedure clearly. The entire team is courteous, attentive, and provides exceptional patient care. They also offered valuable advice and ensured that we fully understood the treatment plan.</p>
+          <p>The consultation and treatment fees are very reasonable, making the quality of care even more impressive. What truly sets this clinic apart is their commitment to patient follow-up. They regularly contacted us via WhatsApp to check on my husband's recovery, which reflects their genuine dedication to their patients' well-being.</p>
+          <p>I am very pleased with the care we received and would highly recommend this clinic to</p>
+        </div>
+      </div>
+
+      <div class="review-card" data-date="2026-07-25">
+        <div class="reviewer">Intan Norsazliana <span class="time-ago">• </span></div>
+        <div class="stars">★★★★★</div>
+        <div class="review-text">
+          <p>I came to this clinic to consult the doctor about my acne concerns. The doctor prescribed medication and a skincare routine, and the prices were very affordable.</p>
+          <p>A week later, I came back for my first facial treatment, and they were having a first-trial promotion. My skin felt so clean and refreshed afterwards! They also used a suction machine with AHA and BHA, which helped deep-clean my pores.</p>
+          <p>They even gave me a free gift, which was such a lovely bonus! 🎁</p>
+          <p>Highly recommended! ✨</p>
+        </div>
       </div>
     </div>
+  </div>
+</div>
 
   </div>
   <!-- Brands Auto-scrolling Slider -->
@@ -1039,7 +1062,55 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(nextBanner, slideInterval);
   }
 });
+function getRelativeTimeString(dateString) {
+  const date = new Date(dateString);
+  const now = new Date();
+  const secondsAgo = Math.floor((now - date) / 1000);
+
+  const minutesAgo = Math.floor(secondsAgo / 60);
+  const hoursAgo = Math.floor(minutesAgo / 60);
+  const daysAgo = Math.floor(hoursAgo / 24);
+  const weeksAgo = Math.floor(daysAgo / 7);
+  const monthsAgo = Math.floor(daysAgo / 30.4375); // Avg days in month
+  const yearsAgo = Math.floor(daysAgo / 365.25);   // Account for leap years
+
+  if (secondsAgo < 60) return "just now";
+  if (minutesAgo < 60) return `${minutesAgo} minute${minutesAgo > 1 ? 's' : ''} ago`;
+  if (hoursAgo < 24) return `${hoursAgo} hour${hoursAgo > 1 ? 's' : ''} ago`;
+  if (daysAgo < 7) return `${daysAgo} day${daysAgo > 1 ? 's' : ''} ago`;
+  if (weeksAgo < 4) return `${weeksAgo} week${weeksAgo > 1 ? 's' : ''} ago`;
+  if (monthsAgo < 12) return `${monthsAgo} month${monthsAgo > 1 ? 's' : ''} ago`;
+  if (yearsAgo === 1) return "a year ago";
+  return `${yearsAgo} years ago`;
+}
+
+function updateReviewDates() {
+  document.querySelectorAll('.review-card[data-date]').forEach(card => {
+    const rawDate = card.getAttribute('data-date');
+    const timeAgoSpan = card.querySelector('.time-ago');
+    if (rawDate && timeAgoSpan) {
+      timeAgoSpan.textContent = `• ${getRelativeTimeString(rawDate)}`;
+    }
+  });
+}
+
+function switchLocation(locationKey, btnElement) {
+  document.querySelectorAll('.location-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.location-reviews').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+
+  document.getElementById(`info-${locationKey}`).classList.add('active');
+  document.getElementById(`reviews-${locationKey}`).classList.add('active');
+
+  if (btnElement) {
+    btnElement.classList.add('active');
+  }
+}
+
+// Run date calculation as soon as page loads
+document.addEventListener('DOMContentLoaded', updateReviewDates);
 </script>
+
 </body>
 
 </html>
